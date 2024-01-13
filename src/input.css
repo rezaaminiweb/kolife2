@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .backgroundlin{
+        background-image: url(assets/img/Vector_Smart_Object.png);
+        background-size: cover;
+        background-position: top left;
+        background-repeat: no-repeat;
+        
+    }
+
+}
+@layer base {
+    @font-face {
+        font-family:"shabnama" ;
+        src: url(assets/fonts/Estedad-Medium.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "shabnama1";
+        src: url(assets/fonts/Estedad-Light.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "shabnama2";
+        src: url(assets/fonts/Estedad-Bold.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "shabnama3";
+        src: url(assets/fonts/Estedad-Black.ttf);
+        font-display: swap;
+    }
+    body{
+        @apply font-shabnama2
+    }
+}
