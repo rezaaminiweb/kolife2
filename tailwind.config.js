@@ -4,13 +4,30 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage : {
-        cheno : "url('./src/assets/img/Vector_Smart_Object.png')"
+        cheno : "url('./src/assets/img/Vector_Smart_Object.png')",
+        back : "url('../img/Rectangle_1_copy_2.png')",
+        back2 : "url('../img/shape4.png')",
+        back3:"url('../img/pic23.png')"
       },
+      backgroundPosition:{
+        center1:'10% 100%'
+      },
+      
       fontFamily:{
-        shabnama : 'shabnama',
-        shabnama1 : 'shabnama1',
-        shabnama2 : 'shabnama2',
-        shabnama3 : 'shabnama3'
+        EstedadMedium : "Estedad Medium",
+        EstedadLight : "Estedad Light",
+        EstedadBold : 'Estedad Bold' ,
+        EstedadBlock : 'Estedad Block',
+        DinarOneLight : 'DinarOneLight',
+        DinarOneMedium : 'DinarOneMedium',
+        DinarTwoLight : 'DinarTwoLight',
+        DinarTwomedium:'DinarTwomedium',
+        farDinarTwoMedium : 'farDinarTwoMedium',
+        hogolures : 'hogolures',
+        mgDinarOneMedium : 'mgDinarOneMedium',
+        mgDinarOneLight: 'mgDinarOneLight',
+        mgDinarTwoLight: 'mgDinarTwoLight',
+        mgDinarTwoMedium : 'mgDinarTwoMedium'
       }
     },
   },

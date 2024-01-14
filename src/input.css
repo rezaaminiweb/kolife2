@@ -3,37 +3,92 @@
 @tailwind utilities;
 
 @layer components{
-    .backgroundlin{
-        background-image: url(assets/img/Vector_Smart_Object.png);
-        background-size: cover;
-        background-position: top left;
+    .backgrounlin{
+        background-image: url(../img/Rectangle_1_copy_2.png),url(../img/Vector_Smart_Object.png),url(../img/Vector_Smart_aObject.png) , url(../img/VectorSmartObjectDoubleClicktoEdit.png) , url(../img/VectorSmartObjectDoubleClicktoEdit.png) , url(../img/VectorSmartObjectDoubleClicktoEdit.png) , linear-gradient(to bottom, #f2f6fc,#d8e5f6 );
+        background-size: cover , 20vw , 15vw , 4vw , 3vw , 3vw;
+        background-position:center center ,  100% 30% , 0% 50% , 45% 80% , 70% 70% , 62% 60%;
         background-repeat: no-repeat;
         
+        
     }
+   
+    
 
 }
+
 @layer base {
     @font-face {
-        font-family:"shabnama" ;
-        src: url(assets/fonts/Estedad-Medium.ttf);
+        font-family:"Estedad Medium" ;
+        src: url(../fonts/Estedad-Medium.ttf);
         font-display: swap;
     }
     @font-face {
-        font-family: "shabnama1";
-        src: url(assets/fonts/Estedad-Light.ttf);
+        font-family: "Estedad Light";
+        src: url(../fonts/Estedad-Light.ttf);
         font-display: swap;
     }
     @font-face {
-        font-family: "shabnama2";
-        src: url(assets/fonts/Estedad-Bold.ttf);
+        font-family: "Estedad Bold";
+        src: url(../fonts/Estedad-Bold.ttf);
         font-display: swap;
     }
     @font-face {
-        font-family: "shabnama3";
-        src: url(assets/fonts/Estedad-Black.ttf);
+        font-family: "Estedad Block";
+        src: url(../fonts/Estedad-Black.ttf);
         font-display: swap;
     }
+    @font-face {
+        font-family: "DinarOneLight";
+        src: url(../fonts/Dinar\ One\ Light_MRT.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "DinarOneMedium";
+        src: url(../fonts/Dinar\ One\ Medium_MRT.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "DinarTwoLight";
+        src: url(../fonts/Dinar\ Two\ Light_MRT.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "DinarTwomedium";
+        src: url(../fonts/Dinar\ Two\ Medium_MRT.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "farDinarTwoMedium";
+        src: url(../fonts/Far_Dinar_Two_Medium.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "hogolures";
+        src: url(../fonts/Hugolers\ Stylish\ Modern.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "mgDinarOneMedium";
+        src: url(../fonts/Mj_Dinar\ One\ Medium_p30download.com.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "mgDinarOneLight";
+        src: url(../fonts/Mj_Dinar\ One\ Light_p30download.com.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "mgDinarTwoLight";
+        src: url(../fonts/Mj_Dinar\ Two\ Light_p30download.com.ttf);
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "mgDinarTwoMedium";
+        src: url(../fonts/Mj_Dinar\ Two\ Medium_p30download.com.ttf);
+        font-display: swap;
+        }
+        
     body{
-        @apply font-shabnama2
+        @apply font-EstedadMedium
     }
 }
