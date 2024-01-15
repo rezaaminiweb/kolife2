@@ -1057,6 +1057,14 @@ body {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .origin-\[0px_70px\] {
   transform-origin: 0px 70px;
 }
@@ -1670,6 +1678,16 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#133771\] {
+  --tw-text-opacity: 1;
+  color: rgb(19 55 113 / var(--tw-text-opacity));
+}
+
+.text-\[\#d0b28a\] {
+  --tw-text-opacity: 1;
+  color: rgb(208 178 138 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
