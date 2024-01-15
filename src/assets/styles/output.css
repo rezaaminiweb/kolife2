@@ -847,6 +847,11 @@ body {
   margin-bottom: 0.75rem;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -1134,6 +1139,18 @@ body {
   border-radius: 9999px;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1182,6 +1199,15 @@ body {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#153f83\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 63 131 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\/img\/Layer_28\.png\'\)\] {
@@ -1321,6 +1347,10 @@ body {
 
 .p-16 {
   padding: 4rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-1 {
