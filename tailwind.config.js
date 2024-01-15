@@ -7,7 +7,8 @@ module.exports = {
         cheno : "url('./src/assets/img/Vector_Smart_Object.png')",
         back : "url('../img/Rectangle_1_copy_2.png')",
         back2 : "url('../img/shape4.png')",
-        back3:"url('../img/pic23.png')"
+        back3:"url('../img/pic23.png')",
+        layer3 : "url('../img/Layer_28.png')"
       },
       backgroundPosition:{
         center1:'10% 100%'
@@ -28,6 +29,9 @@ module.exports = {
         mgDinarOneLight: 'mgDinarOneLight',
         mgDinarTwoLight: 'mgDinarTwoLight',
         mgDinarTwoMedium : 'mgDinarTwoMedium'
+      },
+      fontSize:{
+        xxs : '11px'
       }
     },
   },
