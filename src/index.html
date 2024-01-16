@@ -8,32 +8,9 @@
     <link rel="stylesheet" href="assets/styles/output.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/swiper/swiper.css">
     <style>
-        .swiper {
-            width: 100%;
-            height: 100%;
-        }
 
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        :root {
-            --swiper-pagination-color: #000;
-
-        }
     </style>
 </head>
 
@@ -55,7 +32,7 @@
 
                     <div class="container mx-auto">
                         <br>
-                        <div class="flex lg:justify-center justify-between items-center text-xl">
+                        <div class="flex lg:justify-center justify-between items-center px-3 lg:px-0 text-xl">
                             <div>
                                 <figure class="relative">
                                     <img src="assets/img/logo2.png" class="w-[100px]" alt="">
@@ -63,7 +40,7 @@
 
                                 </figure>
                             </div>
-                            <div class=" flex">
+                            <div class=" flex items-center ">
                                 <ul class="hidden lg:flex  items-center text-sm mx-3">
                                     <li class="mx-2 flex">
                                         <a href="#" class="text-[#183258] ">
@@ -135,8 +112,8 @@
                                 <ul class="mr-7 ">
                                     <li class=" px-5">
                                         <figure class="flex items-center cursor-pointer">
-                                            <img src="assets/img/search icon .png" class="w-[20px]" alt="">
-                                            <button class="mr-3">
+                                            <img src="assets/img/search icon .png" class="lg:w-[20px] w-[15px]" alt="">
+                                            <button class="lg:mr-3 mr-1 text-xxs lg:text-base">
                                                 جستجو
                                             </button>
                                         </figure>
@@ -145,14 +122,17 @@
                                 </ul>
                                 <ul>
                                     <div class="bg-gradient-to-b from-[#154189] to-[#172940] p-1">
-                                        <a href="#" class="flex   justify-center items-center p-2 bg-[#f1f5fc]
+                                        <a href="#" class="flex   justify-center items-center  px-2 bg-[#f1f5fc]
                                      ">
-                                            <li class="text-sm me-4">
-                                                ثبت کن!
-                                            </li>
-                                            <figure>
-                                                <img src="assets/img/calender icon .png" class="w-[20px]" alt="">
-                                            </figure>
+                                            <div class="flex justify-center items-center ">
+                                                <li class="text-xxs  ">
+                                                    ثبت کن
+                                                </li>
+                                                <figure>
+                                                    <img src="assets/img/calender icon .png"
+                                                        class="lg:w-[20px] w-[10px] mr-1 lg:mr-0" alt="">
+                                                </figure>
+                                            </div>
 
                                         </a>
                                     </div>
@@ -175,35 +155,42 @@
 
             </header>
             <div class="container mx-auto">
-                <div class="flex justify-around items-start py-28 px-40 " style="">
+                <div class="lg:hidden">
+                    <br><br><br>
+                </div>
+                <div class="flex lg:justify-around flex-col justify-center items-center  lg:flex-row lg:items-start lg:py-28 lg:px-40 "
+                    style="">
 
                     <div
-                        class=" px-3 flex flex-col items-start justify-center text-transparent bg-clip-text bg-gradient-to-b from-[#164288] to-[#192b41] text-5xl bg-black ">
-                        <span class="py-3 font-bold">
+                        class=" lg:px-3 flex flex-col items-center lg:items-start justify-center text-transparent bg-clip-text bg-gradient-to-b from-[#164288] to-[#192b41] lg:text-5xl text-2xl  bg-black ">
+                        <span class="lg:py-3 py-0 font-bold">
                             بلفاروپلاستی
                         </span>
-                        <span class=" py-3 font-bold">
+                        <span class=" py-3  font-bold">
                             همزمان پلک بالا و پایین
                         </span>
-                        <span class="py-3 font-bold">
+                        <span class="lg:py-3 py-0 font-bold">
                             معجزه میکنه!
                         </span>
-                        <p class=" text-xl font-bold">
+                        <p class=" lg:text-xl text-xl mt-3 lg:mt-0  font-bold">
                             این معجزه باعث شد چهره‌ی زیباجوی
                         </p>
-                        <p class="text-xl font-bold">
+                        <p class="lg:text-xl font-bold text-xl ">
                             عزیزمون جوان تر و شاداب تر بشه
                         </p>
                         <div
-                            class="bg-gradient-to-b p-[0.20rem] mt-32 mb-11 flex items-center justify-center w-fit from-[#133c86] to-[#15273f]">
+                            class="bg-gradient-to-b p-[0.20rem] mt-11  lg:mt-32 lg:mb-11  mb-0 flex items-center justify-center w-fit from-[#133c86] to-[#15273f]">
                             <div class="bg-[#e6eef9] border  flex items-center justify-center">
-                                <a href="" class="text-lg text-black py-5 px-10 ">
+                                <a href="" class="text-xs lg:text-lg text-black px-2 py-2 lg:py-5 lg:px-10 ">
                                     مشاهده بیشتر
                                 </a>
                             </div>
                         </div>
-                        <div class="mt-40">
-                            <div class="flex items-center justify-center">
+                        <div class="lg:hidden">
+                            <br>
+                        </div>
+                        <div class="mt-5 lg:mt-40 ">
+                            <div class="flex items-center justify-center px-5 lg:px-0">
                                 <figure>
                                     <img src="assets/img/arrow_icon.png" class="w-[30px]" alt="">
                                 </figure>
@@ -215,10 +202,13 @@
                             </div>
 
                         </div>
+                        <div class="lg:hidden">
+                            <br>
+                        </div>
 
 
                     </div>
-                    <div class="relative">
+                    <div class="relative hidden lg:flex">
                         <figure class="bg-white w-[90px] shadow-2xl  rounded-full p-3 h-[90px] flex">
                             <img src="assets/img/logo3.png" alt="">
                         </figure>
@@ -230,10 +220,13 @@
 
                     <div class=" flex relative ">
                         <figure>
-                            <img src="assets/img/pic .png" class="object-cover w-[400px] px-5 py-2" alt="">
-                            <img src="assets/img/Shape.png" class="absolute left-0  top-[-3%]" alt="">
+                            <img src="assets/img/pic .png" class="object-cover w-[200px] lg:w-[400px] px-5 py-2" alt="">
+                            <img src="assets/img/Shape.png" class="absolute hidden lg:flex lg:left-0  top-[-3%]" alt="">
                         </figure>
 
+                    </div>
+                    <div class="lg:hidden">
+                        <br>
                     </div>
 
                 </div>
@@ -243,24 +236,30 @@
             <br><br>
             <div class="w-full">
                 <div class="flex items-center justify-center">
-                    <p class="text-[#be9750] text-2xl py-3">درباره ما </p>
+                    <p class="text-[#be9750] font-EstedadBold text-2xl py-3">درباره ما </p>
                 </div>
-                <div class="flex justify-center flex-col lg:flex-row ">
-                    <div class="lg:w-[30%] w-full">
-                        <figure class=" relative">
-                            <img src="assets/img/shape4.png" alt="">
+                <div class="lg:hidden">
+                    <br>
+                </div>
+                <div class="flex justify-center items-center flex-col lg:flex-row ">
+                    <div class=" flex justify-center">
+                        <figure class=" relative w-[50%] lg:w-auto  ">
+                            <img src="assets/img/shape4.png" class="" alt="">
                             <img src="assets/img/pic1.png" class="absolute left-[-9px] top-[-10px] flex" alt="">
                         </figure>
                     </div>
-                    <div class="lg:w-[37%] px-16 w-full">
+                    <div class="lg:hidden">
+                        <br><br>
+                    </div>
+                    <div class="">
                         <div class="flex flex-col items-center justify-center ">
-                            <p class="text-3xl py-4 font-bold text-[#174081]">
+                            <p class="text-3xl py-4 text-center lg:text-start font-bold text-[#174081]">
                                 یک دهه سابقه در جراحی زیبایی پلک،
                             </p>
                             <p class="text-3xl font-bold text-[#192b42]">
                                 فمتو لیزیک، لازک و ...
                             </p>
-                            <p class="py-7">
+                            <p class="py-7 text-center lg:text-start px-3 w-full lg:w-[80%]">
                                 یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
                                 یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
                                 یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
@@ -268,13 +267,13 @@
                                 یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
                             </p>
                         </div>
-                        <div class="flex justify-between">
+                        <div class="flex justify-between flex-col lg:flex-row items-center lg:justify-around ">
 
                             <figure class="">
                                 <br>
                                 <img src="assets/img/beautiful.png" class="w-[100px]" alt="">
                             </figure>
-                            <figure class="relative w-[50%] mt-8">
+                            <figure class="relative w-[50%] lg:w-[30%]  mt-8">
                                 <img src="assets/img/pic6.png" alt="">
                                 <img src="assets/img/pic5.png" class="absolute left-[-9px] top-2" alt="">
                             </figure>
@@ -282,8 +281,11 @@
                         </div>
 
                     </div>
-                    <div class="lg:w-[30%] w-full">
-                        <figure>
+                    <div class="lg:hidden">
+                        <br><br>
+                    </div>
+                    <div class="flex justify-center">
+                        <figure class="w-[50%] lg:w-[100%] hidden lg:flex">
                             <img src="assets/img/face shape .png" alt="">
                         </figure>
 
@@ -293,7 +295,7 @@
                 </div>
 
 
-                <br><br><br>
+                <br>
             </div>
             <br>
             <br>
@@ -301,13 +303,13 @@
         </div>
         <div class="bg-[#faf9f7] py-6">
             <div class="container mx-auto ">
-                <div class="flex justify-around">
+                <div class="flex justify-around flex-col lg:flex-row items-center">
                     <div class="flex flex-col  py-6 items-start  text-2xl font-bold">
                         <span class="text-[#be9750] font-normal text-base">سرویس های ما</span>
                         <span class="text-[#173e7b]">رضایت شما الویت </span>
                         <span class="text-black">ماست...</span>
                     </div>
-                    <div class="w-[30%] ">
+                    <div class="lg:w-[30%] w-[80%] ">
                         <p class="py-11">
                             یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
                             یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
@@ -323,6 +325,9 @@
                             <a href="" class="bg-[#faf9f7] px-2 py-1">مشاهده تمام سرویس ها </a>
                         </div>
                     </div>
+                    <div class="lg:hidden">
+                        <br>
+                    </div>
 
                 </div>
             </div>
@@ -330,91 +335,91 @@
         </div>
         <div class="w-full h-[70vh]  bg-back3 bg-cover  bg-no-repeat bg-center  ">
             <div class="w-full h-full">
-                <div class="flex h-full">
-                    <div class="flex w-[25%]  duration-300 group px-8 py-9 font-DinarOneMedium bg-[#00000084] border-2 border-white h-full flex-col justify-end text-xl "
+                <div class="flex flex-wrap lg:flex-row h-full">
+                    <div class="flex w-[50%] lg:w-[25%]   items-center lg:items-start  duration-300 group  lg:px-8 lg:py-9 py-2 font-DinarOneMedium bg-[#00000084] border-2 border-white lg:h-full h-[50%]  flex-col justify-end text-xl "
                         id="div1">
                         <span
-                            class="text-8xl group-hover:text-white duration-300 font-hogolures bg-clip-text text-transparent bg-gradient-to-b from-[#c7a45f] to-[#f1dba1]">
+                            class="text-5xl lg:text-8xl  group-hover:text-white duration-300 font-hogolures bg-clip-text text-transparent bg-gradient-to-b from-[#c7a45f] to-[#f1dba1]">
                             01
                         </span>
-                        <span class="text-2xl text-white  pb-2 ">
+                        <span class="lg:text-2xl text-base   text-white  pb-2 ">
                             جراحی زیبایی پلک
                         </span>
-                        <span class="text-white pb-2 text-lg font-EstedadLight">
-                            جراحی زیبایی پلک زیبایی
+                        <span class="text-white text-xs lg:text-lg pb-2   font-EstedadLight">
+                            جراحی زیبایی
                         </span>
-                        <span class="text-white text-lg font-EstedadLight">
-                            <ul class="list-disc px-7 overflow-hidden duration-300" id="menu1">
+                        <span class="text-white text-lg font-EstedadLight ">
+                            <ul class="list-disc lg:text-lg text-xxs px-7 overflow-hidden duration-300" id="menu1">
                                 <li>جراحی زیبایی پلک</li>
                                 <li>زیبایی پلک جراحی</li>
-                                <li>زیبایی پلک بلفاریستا جراحی</li>
+                                <li>زیبایی پلک </li>
                                 <li>زیبایی پلک جراحی</li>
                             </ul>
                         </span>
 
                     </div>
-                    <div class="flex w-[25%] group px-8 py-9 font-DinarOneMedium bg-[#00000084] border-2 border-white h-full flex-col justify-end text-xl "
+                    <div class="flex w-[50%] lg:w-[25%] group lg:px-8 lg:py-9 py-2 font-DinarOneMedium bg-[#00000084] border-2 border-white lg:h-full h-[50%] flex-col justify-end items-center lg:items-start text-xl "
                         id="div2">
                         <span
-                            class="text-8xl group-hover:text-white duration-300 font-hogolures bg-clip-text text-transparent bg-gradient-to-b from-[#c7a45f] to-[#f1dba1]">
+                            class="text-5xl lg:text-8xl group-hover:text-white duration-300 font-hogolures bg-clip-text text-transparent bg-gradient-to-b from-[#c7a45f] to-[#f1dba1]">
                             02
                         </span>
-                        <span class="text-2xl text-white  pb-2 ">
+                        <span class="lg:text-2xl text-base  text-white  pb-2 ">
                             بلفاروپلاستی
                         </span>
-                        <span class="text-white pb-2 text-lg font-EstedadLight">
+                        <span class="text-white pb-2 text-xs lg:text-lg font-EstedadLight">
                             جراحی زیبایی پلک زیبایی
                         </span>
                         <span class="text-white text-lg font-EstedadLight">
-                            <ul class="list-disc px-7 overflow-hidden duration-300" id="menu2">
+                            <ul class="list-disc lg:text-lg text-xxs px-7 overflow-hidden duration-300" id="menu2">
                                 <li>جراحی زیبایی پلک</li>
                                 <li>زیبایی پلک جراحی</li>
-                                <li>زیبایی پلک بلفاریستا جراحی</li>
+                                <li>زیبایی پلک </li>
                                 <li>زیبایی پلک جراحی</li>
                             </ul>
                         </span>
 
                     </div>
-                    <div class="flex w-[25%] group px-8 py-9 font-DinarOneMedium bg-[#00000084] border-2 border-white h-full flex-col justify-end text-xl "
+                    <div class="flex w-[50%] lg:w-[25%] group lg:px-8 lg:py-9 py-2 font-DinarOneMedium bg-[#00000084] border-2 border-white lg:h-full h-[50%] flex-col justify-end items-center lg:items-start text-xl "
                         id="div3">
                         <span
-                            class="text-8xl group-hover:text-white duration-300 font-hogolures bg-clip-text text-transparent bg-gradient-to-b from-[#c7a45f] to-[#f1dba1]">
+                            class="text-5xl lg:text-8xl group-hover:text-white duration-300 font-hogolures bg-clip-text text-transparent bg-gradient-to-b from-[#c7a45f] to-[#f1dba1]">
                             03
                         </span>
-                        <span class="text-2xl text-white  pb-2 ">
+                        <span class="lg:text-2xl text-base text-white  pb-2 ">
                             لیزیک
                         </span>
-                        <span class="text-white pb-2 text-lg font-EstedadLight">
+                        <span class="text-white pb-2 text-xs lg:text-lg font-EstedadLight">
                             جراحی زیبایی پلک
                         </span>
                         <span class="text-white text-lg font-EstedadLight">
-                            <ul class="list-disc px-7 overflow-hidden duration-300" id="menu3">
+                            <ul class="list-disc lg:text-lg text-xxs px-7 overflow-hidden duration-300" id="menu3">
                                 <li>جراحی زیبایی پلک</li>
                                 <li>زیبایی پلک جراحی</li>
-                                <li>زیبایی پلک بلفاریستا جراحی</li>
+                                <li>زیبایی پلک </li>
                                 <li>زیبایی پلک جراحی</li>
                             </ul>
                         </span>
 
 
                     </div>
-                    <div class="flex w-[25%] group px-8 py-9 font-DinarOneMedium bg-[#00000084] border-2 border-white h-full flex-col justify-end text-xl "
+                    <div class="flex w-[50%] lg:w-[25%] group lg:px-8 lg:py-9 py-2 font-DinarOneMedium bg-[#00000084] border-2 border-white lg:h-full h-[50%] flex-col justify-end items-center lg:items-start text-xl "
                         id="div4">
                         <span
-                            class="text-8xl group-hover:text-white duration-300 font-hogolures bg-clip-text text-transparent bg-gradient-to-b from-[#c7a45f] to-[#f1dba1]">
+                            class="text-5xl lg:text-8xl group-hover:text-white duration-300 font-hogolures bg-clip-text text-transparent bg-gradient-to-b from-[#c7a45f] to-[#f1dba1]">
                             04
                         </span>
-                        <span class="text-2xl text-white  pb-2 ">
+                        <span class="lg:text-2xl text-base text-white  pb-2 ">
                             لازک
                         </span>
-                        <span class="text-white pb-2 text-lg font-EstedadLight">
+                        <span class="text-white pb-2 text-xs lg:text-lg font-EstedadLight">
                             جراحی زیبایی پلک
                         </span>
                         <span class="text-white text-lg font-EstedadLight">
-                            <ul class="list-disc px-7 overflow-hidden duration-300" id="menu4">
+                            <ul class="list-disc lg:text-lg text-xxs px-7 overflow-hidden duration-300" id="menu4">
                                 <li>جراحی زیبایی پلک</li>
                                 <li>زیبایی پلک جراحی</li>
-                                <li>زیبایی پلک بلفاریستا جراحی</li>
+                                <li>زیبایی پلک </li>
                                 <li>زیبایی پلک جراحی</li>
                             </ul>
                         </span>
@@ -429,23 +434,26 @@
         <div class="container mx-auto">
             <div class="w-full">
                 <div class="p-10  ">
-                    <div class="flex ">
-                        <div class="w-[55%] ">
+                    <div class="flex flex-col lg:flex-row">
+                        <div class="lg:w-[55%] w-full ">
                             <div>
-                                <div class="flex flex-col  py-6 items-start w-full text-2xl font-bold">
+                                <div class="flex flex-col  py-6 lg:items-start items-center w-full text-2xl font-bold">
                                     <span class="text-[#be9750] font-normal text-base font-EstedadMedium text-xl">
                                         جراحان
                                         ما</span>
-                                    <span class="text-[#173e7b] text-4xl font-EstedadBlock py-5">جراحان پلاستیک حرفه‌ای
+                                    <span class="text-[#173e7b] lg:text-4xl text-2xl font-EstedadBlock py-5">جراحان
+                                        پلاستیک حرفه‌ای
                                     </span>
-                                    <span class="text-black text-4xl font-EstedadBlock">با رتبه برتر</span>
-                                    <div class="flex flex-col text-xl font-EstedadLight py-14">
-                                        <p>جراحان پلاستیک ما جراحی پلاستیک ایمن، اخلاقی و کارآمد را با حفظ استانداردهای
+                                    <span class="text-black lg:text-4xl text-2xl font-EstedadBlock">با رتبه برتر</span>
+                                    <div
+                                        class="flex flex-col lg:items-start items-center lg:text-xl text-base  font-EstedadLight py-14">
+                                        <p class="text-center lg:text-start">جراحان پلاستیک ما جراحی پلاستیک ایمن،
+                                            اخلاقی و کارآمد را با حفظ استانداردهای
                                             بالای آموزش، معاینه، صدور </p>
-                                        <p class="py-3">
+                                        <p class="py-3 text-center lg:text-start">
                                             گواهینامه و گواهی مستمر متخصصان ما ترویج می کنند.
                                         </p>
-                                        <p>
+                                        <p class="text-center lg:text-start">
                                             جراحان پلاستیک ما جراحی پلاستیک ایمن، اخلاقی و کارآمد
                                         </p>
                                     </div>
@@ -462,7 +470,7 @@
                             </div>
 
                         </div>
-                        <div class="w-[45%] py-40 flex flex-col items-center">
+                        <div class="lg:w-[45%] w-full lg:py-40 py-20 flex flex-col items-center">
                             <br>
                             <br>
                             <br><br><br>
@@ -474,16 +482,16 @@
                             <div class="flex justify-center flex-col items-center">
                                 <br>
                                 <br>
-                                <h4 class="font-EstedadBold text-5xl text-[#16438b]">دکتر ایمان انصاری</h4>
+                                <h4 class="font-EstedadBold lg:text-5xl text-3xl text-[#16438b]">دکتر ایمان انصاری</h4>
                                 <br>
-                                <div class="flex flex-col font-EstedadLight text-xl py-5">
-                                    <p>
+                                <div class="flex flex-col items-center lg:items-start font-EstedadLight text-xl py-5">
+                                    <p class="text-center lg:text-start">
                                         جراح و متخصص چشم ،رتبه برتر بورد تخصصی چشم کشور
                                     </p>
-                                    <p class="my-3">
+                                    <p class="my-3 text-center lg:text-start">
                                         عضو بنیاد ملی نخبگان کشوری ،عضو هیئت علمی دانشگاه
                                     </p>
-                                    <p>
+                                    <p class="text-center lg:text-start">
                                         سالها همکاری با کلینیک کولایف به عنوان جراح بلفاروپلاستی
                                     </p>
                                     <br><br>
@@ -500,11 +508,12 @@
 
                         </div>
 
+
                     </div>
                     <div class="py-5 ">
                         <div>
-                            <div class=" flex justify-around">
-                                <div class="flex ">
+                            <div class=" flex justify-around flex-col lg:flex-row items-center ">
+                                <div class="flex flex-col lg:flex-row  items-center lg:items-start">
                                     <span
                                         class="font-hogolures text-8xl bg-clip-text text-transparent bg-gradient-to-b from-[#16438b] to-[#192b41]">
                                         10+
@@ -520,7 +529,7 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div class="flex ">
+                                <div class="flex flex-col lg:flex-row  items-center lg:items-start mt-10 lg:mt-0">
                                     <span
                                         class="font-hogolures text-8xl bg-clip-text text-transparent bg-gradient-to-b from-[#16438b] to-[#192b41]">
                                         9K
@@ -536,7 +545,7 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div class="flex ">
+                                <div class="flex flex-col lg:flex-row  items-center lg:items-start mt-10 lg:mt-0">
                                     <span
                                         class="font-hogolures text-8xl bg-clip-text text-transparent bg-gradient-to-b from-[#16438b] to-[#192b41]">
                                         7b
@@ -580,10 +589,10 @@
 
                 </div>
                 <br><br>
-                <div class="flex justify-around">
-                    <div class="w-[16%]">
+                <div class="flex justify-around flex-col lg:flex-row ">
+                    <div class="lg:w-[16%] w-full">
                         <figure class="flex flex-col items-center">
-                            <img src="assets/img/pic14.png" class="w-[80%]" alt="">
+                            <img src="assets/img/pic14.png" class="lg:w-[80%] w-[50%]" alt="">
                             <figcaption class="flex flex-col justify-center items-center ">
                                 <p class="px-6 text-center font-EstedadBold text-base text-[#16438b]  mt-5 ">
                                     بلفاروپلاستی و جراحی
@@ -612,9 +621,9 @@
 
                         </div>
                     </div>
-                    <div class="w-[16%]">
+                    <div class="lg:w-[16%] w-full mt-8 lg:mt-0">
                         <figure class="flex flex-col items-center">
-                            <img src="assets/img/pic27.png" class="object-cover w-[80%]" alt="">
+                            <img src="assets/img/pic27.png" class="object-cover lg:w-[80%] w-[50%]" alt="">
                             <figcaption class=" flex flex-col justify-center items-center ">
                                 <p class="px-6 text-center font-EstedadBold text-base text-[#16438b]  mt-5 ">
                                     بلفاروپلاستی و جراحی
@@ -643,9 +652,9 @@
 
                         </div>
                     </div>
-                    <div class="w-[16%]">
+                    <div class="lg:w-[16%] w-full mt-8 lg:mt-0">
                         <figure class="flex flex-col items-center">
-                            <img src="assets/img/pic28.png" class="w-[80%] object-cover" alt="">
+                            <img src="assets/img/pic28.png" class="lg:w-[80%] w-[50%] object-cover" alt="">
                             <figcaption class="flex flex-col justify-center items-center ">
                                 <p class="px-6 font-EstedadBold text-center text-base text-[#16438b]  mt-5 ">
                                     بلفاروپلاستی و جراحی
@@ -675,9 +684,9 @@
                         </div>
                     </div>
 
-                    <div class="w-[16%]">
+                    <div class="lg:w-[16%] w-full mt-8 lg:mt-0">
                         <figure class="flex flex-col items-center">
-                            <img src="assets/img/pic29.png" class="w-[80%] object-cover" alt="">
+                            <img src="assets/img/pic29.png" class="lg:w-[80%] w-[50%] object-cover" alt="">
                             <figcaption class="flex flex-col justify-center items-center ">
                                 <p class="px-6 font-EstedadBold text-center  text-base text-[#16438b]  mt-5 ">
                                     بلفاروپلاستی و جراحی
@@ -707,9 +716,9 @@
                         </div>
                     </div>
 
-                    <div class="w-[16%]">
+                    <div class="lg:w-[16%] w-full mt-8 lg:mt-0">
                         <figure class="flex flex-col items-center">
-                            <img src="assets/img/pic30.png" class="w-[80%] object-cover" alt="">
+                            <img src="assets/img/pic30.png" class="lg:w-[80%] w-[50%] object-cover" alt="">
                             <figcaption class="flex flex-col justify-center items-center ">
                                 <p class="px-6 font-EstedadBold text-base text-center text-[#16438b]  mt-5 ">
                                     بلفاروپلاستی و جراحی
@@ -739,9 +748,9 @@
                         </div>
                     </div>
 
-                    <div class="w-[16%]">
+                    <div class="lg:w-[16%] w-full mt-8 lg:mt-0">
                         <figure class="flex flex-col items-center">
-                            <img src="assets/img/pic31.png" class="w-[80%] object-cover" alt="">
+                            <img src="assets/img/pic31.png" class="lg:w-[80%] w-[50%] object-cover" alt="">
                             <figcaption class=" flex flex-col justify-center items-center ">
                                 <p class="px-6 font-EstedadBold text-center text-base text-[#16438b]  mt-5 ">
                                     بلفاروپلاستی و جراحی
@@ -787,18 +796,20 @@
 
         </div>
         <div class="w-full h-[80vh] flex items-center justify-center bg-[url('../img/Layer_28.png')] bg-cover ">
-            <div class="flex flex-col items-center justify-center">
-                <span class="text-[#be9750] text-base">
+            <div class="flex flex-col items-center justify-center px-7 lg:px-0">
+                <span class="text-[#be9750] text-lg lg:text-base">
                     بیوتیوم
                 </span>
-                <div class="flex flex-col py-4 items-center justify-center">
-                    <p class="text-3xl font-EstedadBold text-white">با جراحی مجسمه سازی بدن به ظاهر
+                <div class="flex flex-col py-4 items-center justify-center  ">
+                    <p class="text-3xl font-EstedadBold text-white lg:text-start text-center">با جراحی مجسمه سازی بدن به
+                        ظاهر
                     </p>
 
-                    <p class="text-4xl font-EstedadBold text-white"> رویاهای خود برسید</p>
+                    <p class="text-4xl font-EstedadBold text-white mt-4 lg:mt-0"> رویاهای خود برسید</p>
                 </div>
                 <div class="py-4  flex flex-col items-center justify-center">
-                    <p class="text-sm font-EstedadLight text-white">جذابیت جدید و حس آرامش بخشی از زندگی را کشف کنید.
+                    <p class="text-sm font-EstedadLight text-white text-center lg:text-start">جذابیت جدید و حس آرامش
+                        بخشی از زندگی را کشف کنید.
                         حساسیت جراحان باعث می شود</p>
                     <p class="py-3 text-sm font-EstedadLight text-white"> که هیکل شما هیچ نقصی را نشان ندهد.</p>
                 </div>
@@ -814,102 +825,189 @@
         </div>
 
         <div
-            class="w-full h-[80vh] bg-white bg-[url('../img/back12.png'),url('../img/back13.png'),url('../img/pic72.png'),url('../img/pic73.png')] bg-no-repeat bg-[length:20rem,_15rem,_23rem,_20rem] bg-[position:100%_0%,_0%_100%,_80%_30%,_75%_25%]">
+            class="w-full  bg-white bg-[url('../img/back12.png'),url('../img/back13.png')] bg-[length:10rem,_15rem] bg-[position:100%_0%,_0%_100%] lg:bg-[url('../img/back12.png'),url('../img/back13.png'),url('../img/pic72.png'),url('../img/pic73.png')] bg-no-repeat lg:bg-[length:20rem,_15rem,_23rem,_20rem] lg:bg-[position:100%_0%,_0%_100%,_80%_30%,_75%_25%]">
             <div class="container mx-auto w-full h-full">
 
 
-                <div class="w-full h-full  flex items-center justify-center">
+                <div class="w-full h-full  flex items-center flex-col lg:flex-row justify-center">
                     <div class="h-auto ">
                         <br><br><br>
                         <br>
-                        <figure class="w-[100%] relative flex justify-end ">
-                            <img src="assets/img/pic70.png" class="w-[40%] absolute left-3 bottom-3" alt="">
+                        <figure class="w-[100%] relative  flex lg:justify-end justify-center ">
+                            <img src="assets/img/pic70.png" class="w-[40%] absolute lg:left-3 left-[32%] bottom-3"
+                                alt="">
                             <img src="assets/img/pic71.png" class="w-[40%]" alt="">
                         </figure>
                     </div>
-                    <div class="flex flex-col px-10">
+                    <div class="flex flex-col px-10 items-center">
                         <div class="flex flex-col items-start justify-center py-11">
-                            <span class="text-[#be9750] text-xl font-EstedadBold">بهترین قیمت</span>
+                            <span class="text-[#be9750] text-xl  font-EstedadBold">بهترین قیمت</span>
                             <div class="flex flex-col py-3">
-                                <span class="text-[#173f7d] py-2 font-EstedadBold font-bold text-4xl">قیمت متناسب</span>
-                                <span class="font-EstedadBold text-4xl">با نیاز شما</span>
+                                <span class="text-[#173f7d] py-2 font-EstedadBold font-bold lg:text-4xl text-2xl ">قیمت
+                                    متناسب</span>
+                                <span class="font-EstedadBold lg:text-4xl text-2xl">با نیاز شما</span>
                             </div>
                         </div>
-                        <div class="py-2">
-                            <div class="flex py-2">
-                                <p class="text-[#183154] font-EstedadBold text-lg">جراحی زیبایی پلک</p>
-                                <span class="px-2">.................................................</span>
-                                <div class="flex font-hogolures items-end">
-                                    <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
-                                    <p>25400</p>
+                        <div class="hidden lg:block">
+                            <div class="py-2 ">
+                                <div class="flex py-2">
+                                    <p class="text-[#183154] font-EstedadBold text-lg">جراحی زیبایی پلک</p>
+                                    <span class="px-2">.................................................</span>
+                                    <div class="flex font-hogolures items-end">
+                                        <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
+                                        <p>25400</p>
+
+                                    </div>
 
                                 </div>
+                                <div>
+                                    <p class="text-[#6d6d71] text-xs">
+                                        جراحی زیبایی پلک جراحی زیبایی پلک
+                                    </p>
 
+
+                                </div>
                             </div>
-                            <div>
-                                <p class="text-[#6d6d71] text-xs">
-                                    جراحی زیبایی پلک جراحی زیبایی پلک
-                                </p>
+                            <div class="py-2">
+                                <div class="flex py-2">
+                                    <p class="text-[#183154] font-EstedadBold text-lg">بلفاروپلاستی</p>
+                                    <span
+                                        class="px-2">.............................................................</span>
+                                    <div class="flex font-hogolures items-end">
+                                        <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
+                                        <p>25400</p>
+
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <p class="text-[#6d6d71] text-xs">
+                                        جراحی زیبایی پلک جراحی زیبایی پلک
+                                    </p>
 
 
+                                </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="flex py-2">
+                                    <p class="text-[#183154] font-EstedadBold text-lg">لیزیک، لازک</p>
+                                    <span
+                                        class="px-2">................................................................</span>
+                                    <div class="flex font-hogolures items-end">
+                                        <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
+                                        <p>25400</p>
+
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <p class="text-[#6d6d71] text-xs">
+                                        جراحی زیبایی پلک جراحی زیبایی پلک
+                                    </p>
+
+
+                                </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="flex py-2">
+                                    <p class="text-[#183154] font-EstedadBold text-lg">بلفاروپلاستی</p>
+                                    <span
+                                        class="px-2">.............................................................</span>
+                                    <div class="flex font-hogolures items-end">
+                                        <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
+                                        <p>25400</p>
+
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <p class="text-[#6d6d71] text-xs">
+                                        جراحی زیبایی پلک جراحی زیبایی پلک
+                                    </p>
+
+
+                                </div>
                             </div>
                         </div>
-                        <div class="py-2">
-                            <div class="flex py-2">
-                                <p class="text-[#183154] font-EstedadBold text-lg">بلفاروپلاستی</p>
-                                <span class="px-2">.............................................................</span>
-                                <div class="flex font-hogolures items-end">
-                                    <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
-                                    <p>25400</p>
+                        <div class="block lg:hidden">
+                            <div class="py-2 ">
+                                <div class="flex py-2  justify-center">
+                                    <p class="text-[#183154] font-EstedadBold text-base">جراحی زیبایی پلک</p>
+                                    <span class="px-2">............................</span>
+                                    <div class="flex font-hogolures items-end ">
+                                        <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
+                                        <p>25400</p>
+
+                                    </div>
 
                                 </div>
+                                <div class="flex justify-center">
+                                    <p class="text-[#6d6d71] text-xs">
+                                        جراحی زیبایی پلک جراحی زیبایی پلک
+                                    </p>
 
-                            </div>
-                            <div>
-                                <p class="text-[#6d6d71] text-xs">
-                                    جراحی زیبایی پلک جراحی زیبایی پلک
-                                </p>
-
-
-                            </div>
-                        </div>
-                        <div class="py-2">
-                            <div class="flex py-2">
-                                <p class="text-[#183154] font-EstedadBold text-lg">لیزیک، لازک</p>
-                                <span
-                                    class="px-2">................................................................</span>
-                                <div class="flex font-hogolures items-end">
-                                    <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
-                                    <p>25400</p>
 
                                 </div>
-
                             </div>
-                            <div>
-                                <p class="text-[#6d6d71] text-xs">
-                                    جراحی زیبایی پلک جراحی زیبایی پلک
-                                </p>
+                            <div class="py-2">
+                                <div class="flex py-2 justify-center">
+                                    <p class="text-[#183154] font-EstedadBold text-base">بلفاروپلاستی</p>
+                                    <span
+                                        class="px-2">.......................................</span>
+                                    <div class="flex font-hogolures items-end">
+                                        <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
+                                        <p>25400</p>
 
-
-                            </div>
-                        </div>
-                        <div class="py-2">
-                            <div class="flex py-2">
-                                <p class="text-[#183154] font-EstedadBold text-lg">بلفاروپلاستی</p>
-                                <span class="px-2">.............................................................</span>
-                                <div class="flex font-hogolures items-end">
-                                    <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
-                                    <p>25400</p>
+                                    </div>
 
                                 </div>
+                                <div class="flex justify-center">
+                                    <p class="text-[#6d6d71] text-xs">
+                                        جراحی زیبایی پلک جراحی زیبایی پلک
+                                    </p>
 
+
+                                </div>
                             </div>
-                            <div>
-                                <p class="text-[#6d6d71] text-xs">
-                                    جراحی زیبایی پلک جراحی زیبایی پلک
-                                </p>
+                            <div class="py-2">
+                                <div class="flex py-2 justify-center">
+                                    <p class="text-[#183154] font-EstedadBold text-base">لیزیک، لازک</p>
+                                    <span
+                                        class="px-2">........................................</span>
+                                    <div class="flex font-hogolures items-end">
+                                        <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
+                                        <p>25400</p>
+
+                                    </div>
+
+                                </div>
+                                <div class="flex justify-center">
+                                    <p class="text-[#6d6d71] text-xs">
+                                        جراحی زیبایی پلک جراحی زیبایی پلک
+                                    </p>
 
 
+                                </div>
+                            </div>
+                            <div class="py-2">
+                                <div class="flex py-2 justify-center">
+                                    <p class="text-[#183154] font-EstedadBold text-base">بلفاروپلاستی</p>
+                                    <span
+                                        class="px-2">.......................................</span>
+                                    <div class="flex font-hogolures items-end">
+                                        <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
+                                        <p>25400</p>
+
+                                    </div>
+
+                                </div>
+                                <div class="flex justify-center">
+                                    <p class="text-[#6d6d71] text-xs">
+                                        جراحی زیبایی پلک جراحی زیبایی پلک
+                                    </p>
+
+
+                                </div>
                             </div>
                         </div>
 
@@ -931,16 +1029,16 @@
         <hr>
         <br><br>
         <div class="container mx-auto">
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center px-5 lg:px-0">
                 <div class="flex flex-col items-center py-1">
 
-                    <p class="text-[#be9750] text-lg ">به تفاوت نگاه کنید </p>
+                    <p class="text-[#be9750] lg:text-lg text-base ">به تفاوت نگاه کنید </p>
                 </div>
                 <div class="flex flex-col py-3">
-                    <h4 class="text-5xl text-[#133770] font-bold font-EstedadBlock">نتایج جذاب</h4>
+                    <h4 class="lg:text-5xl text-3xl text-[#133770] font-bold font-EstedadBlock">نتایج جذاب</h4>
                 </div>
                 <div class="flex flex-col items-center py-3">
-                    <p class="py-2 text-base text-[#be9750] font-EstedadMedium">جذابیت جدید و حس آرامش بخشی از زندگی را
+                    <p class="py-2 text-base text-[#be9750] text-center font-EstedadMedium">جذابیت جدید و حس آرامش بخشی از زندگی را
                         کشف
                         کنید. حساسیت جراحان باعث می شود</p>
                     <p class="text-[#be9750]"> که هیکل شما هیچ نقصی را نشان ندهد.</p>
@@ -948,9 +1046,10 @@
 
             </div>
         </div>
+        <br>
         <div class="container mx-auto">
             <div class="flex w-full ">
-                <figure class="w-[80%] mx-auto relative">
+                <figure class="lg:w-[80%] w-full mx-auto relative">
                     <img src="assets/img/Layer35copy.png" alt="">
                     <span class="absolute w-2 h-full bg-white left-[50%] top-0 translate-x-[-50%]"></span>
                     <div
@@ -958,24 +1057,24 @@
                         <div
                             class="   bg-white w-12 h-12 border rounded-full flex-col justify-center flex items-center text-xs justify-center leading-none  ">
 
-                            <figure class="flex justify-around px-1 w-full ">
+                            <figure class="flex justify-around px-1 w-full">
                                 <img src="assets/img/arrowcopy14.png" class="w-2 h-3" alt="">
                                 <img src="assets/img/arrowcopy15.png" class="w-2 h-3" alt="">
                             </figure>
 
                         </div>
                     </div>
-                    <div class="absolute left-[-10%] top-[50%] flex translate-x-[-50%] translate-y-[-50%] ">
+                    <div class="absolute lg:left-[-10%] left-[5%] top-[50%] flex translate-x-[-50%] translate-y-[-50%] ">
                         <figure
-                            class="bg-white w-9 h-9 flex justify-center px-3 items-center shadow-[0px_1px_4px_black] rounded-full  ">
+                            class="bg-white lg:w-9 lg:h-9 w-5 h-5  flex justify-center lg:px-3 px-[7px] items-center shadow-[0px_1px_4px_black] rounded-full  ">
                             <img src="assets/img/arrowcopy13.png" class=" translate-x-[-10%]" alt="">
 
                         </figure>
 
                     </div>
-                    <div class="absolute left-[110%] top-[50%] flex translate-x-[-50%] translate-y-[-50%] ">
+                    <div class="absolute lg:left-[110%] left-[95%] top-[50%] flex translate-x-[-50%] translate-y-[-50%] ">
                         <figure
-                            class="bg-white w-9 h-9 flex justify-center px-3 items-center shadow-[0px_1px_4px_black] rounded-full  ">
+                            class="bg-white lg:w-9 lg:h-9 w-5 h-5 flex justify-center lg:px-3 px-[7px] items-center shadow-[0px_1px_4px_black] rounded-full  ">
                             <img src="assets/img/arrowcopy12.png" class=" translate-x-[10%]" alt="">
 
                         </figure>
@@ -985,7 +1084,7 @@
                 </figure>
 
             </div>
-            <br><br><br><br>
+            
             <br>
             <div class="flex justify-around">
                 <figure class="px-10">
@@ -1010,19 +1109,22 @@
 
 
             </div>
-            <br><br><br>
+            <div class="hidden lg:block">
+                
+                <br><br><br>
+            </div>
             <br><br><br>
         </div>
         <div
-            class="  w-full  bg-gradient-to-b from-[#e8f1fc] via-[#fff,#fff,#fff] to-[#e8f1fc]  border-black border-t-8 rounded-[48%_48%_0px_0px]">
+            class="  w-full  bg-gradient-to-b from-[#e8f1fc] via-[#fff,#fff,#fff] to-[#e8f1fc]  border-[#c6a15c] lg:border-t-8  lg:rounded-[50%_50%_0px_0px]">
             <div class="container mx-auto">
 
                 <div class="flex flex-col items-center justify-center">
                     <div class="flex flex-col items-center justify-center ">
                         <br><br><br><br>
-                        <span class="text-[#be9750] text-3xl font-EstedadMedium">مشتریان خوشحال ما</span>
-                        <span class="text-[#164185] text-5xl font-EstedadBlock py-6"> این چیزی است که مشتریان </span>
-                        <span class="text-[#123368] text-5xl font-EstedadBlock"> راضی ما می گویند</span>
+                        <span class="text-[#be9750] lg:text-3xl text-base font-EstedadMedium">مشتریان خوشحال ما</span>
+                        <span class="text-[#164185] lg:text-5xl text-2xl font-EstedadBlock py-6"> این چیزی است که مشتریان </span>
+                        <span class="text-[#123368] lg:text-5xl text-2xl font-EstedadBlock"> راضی ما می گویند</span>
                     </div>
 
 
@@ -1035,7 +1137,7 @@
                             <div class="swiper-slide " style="background-color: transparent;">
                                 <figure class="relative flex flex-col items-center justify-center  ">
                                     <img src="assets/img/pic34.png" class="" style="width: 60%;height: 50%;" alt="">
-                                    <div class="absolute  right-[25%] top-[32%]">
+                                    <div class="absolute  right-[25%] top-[30%]">
                                         <figure class="">
                                             <img src="assets/img/Ellipse5copy4.png" class="" alt="">
                                             <div
@@ -1093,7 +1195,7 @@
                             <div class="swiper-slide " style="background-color: transparent;">
                                 <figure class="relative flex flex-col items-center justify-center  ">
                                     <img src="assets/img/Layer51.png" class="" style="width: 60%;height: 50%;" alt="">
-                                    <div class="absolute  right-[25%] top-[32%]">
+                                    <div class="absolute  right-[25%] top-[30%]">
                                         <figure class="">
                                             <img src="assets/img/Ellipse5copy4.png" class="" alt="">
                                             <div
@@ -1151,7 +1253,7 @@
                             <div class="swiper-slide " style="background-color: transparent;">
                                 <figure class="relative flex flex-col items-center justify-center  ">
                                     <img src="assets/img/Layer53.png" class="" style="width: 60%;height: 50%;" alt="">
-                                    <div class="absolute  right-[25%] top-[32%]">
+                                    <div class="absolute  right-[25%] top-[30%]">
                                         <figure class="">
                                             <img src="assets/img/Ellipse5copy4.png" class="" alt="">
                                             <div
@@ -1209,7 +1311,7 @@
                             <div class="swiper-slide " style="background-color: transparent;">
                                 <figure class="relative flex flex-col items-center justify-center  ">
                                     <img src="assets/img/pic34.png" class="" style="width: 60%;height: 50%;" alt="">
-                                    <div class="absolute  right-[25%] top-[32%]">
+                                    <div class="absolute  right-[25%] top-[30%]">
                                         <figure class="">
                                             <img src="assets/img/Ellipse5copy4.png" class="" alt="">
                                             <div
@@ -1267,7 +1369,7 @@
                             <div class="swiper-slide " style="background-color: transparent;">
                                 <figure class="relative flex flex-col items-center justify-center  ">
                                     <img src="assets/img/Layer51.png" class="" style="width: 60%;height: 50%;" alt="">
-                                    <div class="absolute  right-[25%] top-[32%]">
+                                    <div class="absolute  right-[25%] top-[30%]">
                                         <figure class="">
                                             <img src="assets/img/Ellipse5copy4.png" class="" alt="">
                                             <div
@@ -1325,7 +1427,7 @@
                             <div class="swiper-slide " style="background-color: transparent;">
                                 <figure class="relative flex flex-col items-center justify-center  ">
                                     <img src="assets/img/Layer53.png" class="" style="width: 60%;height: 50%;" alt="">
-                                    <div class="absolute  right-[25%] top-[32%]">
+                                    <div class="absolute  right-[25%] top-[30%]">
                                         <figure class="">
                                             <img src="assets/img/Ellipse5copy4.png" class="" alt="">
                                             <div
@@ -1393,31 +1495,33 @@
                 <br><br><br>
 
             </div>
+        </div>
+        <div class="bg-[linear-gradient(to_bottom,#e9f1fc,#fff,#e9f1fc)] ">
             <div
-                class="w-full  bg-[url('../img/Shapecopy5.png'),url('../img/Shape15.png'),url('../img/Shapecopy4.png'),url('../img/pic48.png')] bg-[length:5rem,_10rem,_20rem,_18rem] bg-[position:100%_0%,_0%_100%,_10%_20%,_11.2%_25%] bg-no-repeat">
+                class="w-full bg-[url('../img/Shapecopy5.png'),url('../img/Shape15.png')] bg-[length:10rem,_10rem] bg-[position:100%_0%,_0%_100%] lg:bg-[url('../img/Shapecopy5.png'),url('../img/Shape15.png'),url('../img/Shapecopy4.png'),url('../img/pic48.png')] lg:bg-[length:5rem,_10rem,_20rem,_18rem] lg:bg-[position:100%_0%,_0%_100%,_10%_20%,_11.2%_25%] bg-no-repeat">
                 <br><br>
                 <div class="container mx-auto">
-                    <div class="px-28">
+                    <div class="lg:px-28 ">
                         <div class="">
-                            <div class="flex flex-col ">
-                                <span class="text-xl text-[#be9750] ">
+                            <div class="flex flex-col items-center">
+                                <span class="lg:text-xl text-base text-[#be9750] ">
                                     یک قرار مسافرت رزرو کنید
                                 </span>
-                                <p class="text-[#164187] text-5xl font-EstedadBlock py-5">خدمات مورد نیاز خود را </p>
-                                <p class="text-[#123368] text-5xl font-EstedadBlock">انتخاب کنید</p>
+                                <p class="text-[#164187] lg:text-5xl text-3xl font-EstedadBlock py-5">خدمات مورد نیاز خود را </p>
+                                <p class="text-[#123368] lg:text-5xl text-3xl font-EstedadBlock">انتخاب کنید</p>
 
                             </div>
                             <br><br>
-                            <div class="flex">
-                                <div class="w-[50%]">
+                            <div class="flex flex-col lg:flex-row">
+                                <div class="lg:w-[50%] w-full px-4 lg:px-0 ">
                                     <div class="w-full ">
                                         <form action="" class="w-full flex flex-col">
-                                            <div class="w-full flex mt-4">
-                                                <div class="w-[50%]">
+                                            <div class="w-full flex mt-4 flex-col lg:flex-row">
+                                                <div class=" lg:w-[50%] w-[70%]">
                                                     <input type="text" placeholder="اسم کامل"
                                                         class="px-4 py-2 w-full border-2 outline-none">
                                                 </div>
-                                                <div class="mr-6 w-[50%]">
+                                                <div class="lg:mr-6 mt-5 lg:mt-0 lg:w-[50%] w-[70%]">
                                                     <input type="text" class="px-4 py-2 border-2 outline-none w-full "
                                                         placeholder="شماره تماس">
                                                 </div>
@@ -1425,12 +1529,12 @@
 
                                             </div>
 
-                                            <div class="w-full flex mt-4">
-                                                <div class="w-[50%]">
+                                            <div class="w-full flex mt-4 flex-col lg:flex-row">
+                                                <div class="lg:w-[50%] w-[70%]">
                                                     <input type="text" placeholder="ایمیل"
                                                         class="px-4 w-full py-2 border-2 outline-none">
                                                 </div>
-                                                <div class="mr-6 w-[50%] px-4 border-2 ">
+                                                <div class="lg:mr-6 mt-5 lg:mt-0  lg:w-[50%] w-[70%] px-4 border-2 bg-white ">
                                                     <select class="  py-2 outline-none w-full  " name="" id=""
                                                         aria-placeholder="نوع سرویس">
                                                         <option class="w-full px-8" value="">نوع سرویس</option>
@@ -1439,12 +1543,12 @@
 
 
                                             </div>
-                                            <div class="w-full flex mt-4">
-                                                <div class="w-[50%]">
+                                            <div class="w-full flex mt-4 flex-col lg:flex-row ">
+                                                <div class="lg:w-[50%] w-[70%]">
                                                     <input type="date" placeholder="ایمیل"
                                                         class="px-4 w-full py-2 border-2 outline-none">
                                                 </div>
-                                                <div class="mr-6 w-[50%] ">
+                                                <div class="lg:mr-6 mt-5 lg:mt-0 lg:w-[50%] w-[70%] ">
                                                     <input type="time" placeholder="ایمیل"
                                                         class="px-4 w-full py-2 border-2 outline-none">
                                                 </div>
@@ -1456,9 +1560,9 @@
                                                     class="w-full border-2 p-6 outline-none" id="" cols="30"
                                                     rows="10"></textarea>
                                             </div>
-                                            <div class="flex">
+                                            <div class="flex ">
                                                 <input type="checkbox" id="checkbox">
-                                                <label for="checkbox" class="mx-3">بله! لطفا اطلاعات رویدادها و ویژه ها
+                                                <label for="checkbox" class="mx-3 cursor-pointer">بله! لطفا اطلاعات رویدادها و ویژه ها
                                                     را
                                                     برای من ارسال کنید</label>
                                             </div>
@@ -1472,7 +1576,11 @@
                                         </form>
                                     </div>
                                 </div>
-                                <div class="w-[50%] mr-12">
+                                <div class="lg:hidden">
+                                    <br>
+                                    <br><br>
+                                </div>
+                                <div class="lg:w-[50%] w-full mr-12">
                                     <figure class="w-full relative ">
                                         <img src="assets/img/pic50 .png" class="w-[50%] absolute right-2 top-[-8px]"
                                             alt="">
@@ -1642,9 +1750,10 @@
 
                 </div>
             </div>
-
-
         </div>
+
+
+        
         <hr>
 
 
@@ -1803,6 +1912,17 @@
             el: ".swiper-pagination",
             clickable: true,
         },
+        breakpoints: {
+            350:{
+                slidesPerView: 1,
+                spaceBetween:50
+
+            },
+        
+           1024:{
+            slidesPerView: 3,
+           }
+         },
     });
 </script>
 

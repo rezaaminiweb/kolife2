@@ -8,6 +8,10 @@ const div3 = document.getElementById('div3')
 const menu4 = document.getElementById('menu4')
 const div4 = document.getElementById('div4')
 let _h1 = menu2.clientHeight
+let _h2 = menu1.clientHeight
+// let _h1 = menu2.clientHeight
+let _h3 = menu3.clientHeight
+let _h4 = menu4.clientHeight
 div2.addEventListener('mouseenter',()=>{
     menu2.style.height = _h1+'px'
     // console.log(menu2.style.height);
@@ -16,21 +20,21 @@ div2.addEventListener('mouseleave',()=>{
     menu2.style.height=0+'px'
 })
 div1.addEventListener('mouseenter',()=>{
-    menu1.style.height = _h1+'px'
+    menu1.style.height = _h2+'px'
     // console.log(menu2.style.height);
 })
 div1.addEventListener('mouseleave',()=>{
     menu1.style.height=0+'px'
 })
 div3.addEventListener('mouseenter',()=>{
-    menu3.style.height = _h1+'px'
+    menu3.style.height = _h3+'px'
     // console.log(menu2.style.height);
 })
 div3.addEventListener('mouseleave',()=>{
     menu3.style.height=0+'px'
 })
 div4.addEventListener('mouseenter',()=>{
-    menu4.style.height = _h1+'px'
+    menu4.style.height = _h4+'px'
     // console.log(menu2.style.height);
 })
 div4.addEventListener('mouseleave',()=>{
