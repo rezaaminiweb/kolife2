@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    screens:{
+      ssm:'460px',
+      md:'768px',
+      lg:'1024px',
+      xl:'1280px',
+      '2xl':'1536px'
+    },
     extend: {
+      animation:{
+        spin : 'spin 12s linear infinite'
+      },
       backgroundImage : {
         cheno : "url('./src/assets/img/Vector_Smart_Object.png')",
         back : "url('../img/Rectangle_1_copy_2.png')",

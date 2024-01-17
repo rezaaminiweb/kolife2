@@ -7,6 +7,8 @@ const menu3 = document.getElementById('menu3')
 const div3 = document.getElementById('div3')
 const menu4 = document.getElementById('menu4')
 const div4 = document.getElementById('div4')
+let navmenu = document.getElementById('navmenu')
+let i =1
 let _h1 = menu2.clientHeight
 let _h2 = menu1.clientHeight
 // let _h1 = menu2.clientHeight
@@ -45,4 +47,19 @@ menu1.style.height = '0'
 menu3.style.height = '0'
 menu4.style.height = '0'
 
-parag.innerHTML = parag.innerText.split('').map((val,i)=>`<span class="text-sm bg-clip-text bg-gradient-to-b from-[#16438b] to-[#192b41] absolute text-transparent font-mono tracking-wider top-[-30%]  left-[50%] origin-[0px_70px]" style="transform:rotate(${i*6}deg)">${val}</span>`).join('')
+parag.innerHTML = parag.innerText.split('').map((val,i)=>`<span class="text-sm  bg-clip-text bg-gradient-to-b from-[#16438b] to-[#192b41] absolute text-transparent font-mono tracking-wider top-[-30%]  left-[40%] origin-[0px_70px]" style="transform:rotate(${i*6}deg)">${val}</span>`).join('')
+
+
+function menu(event){
+    if(i%2){
+        event.target.src ='assets/img/568140.png';
+        navmenu.style.left=30+'%'
+        
+        i++
+    }else{
+        event.target.src ='assets/img/Rectangle9copy2.png'
+navmenu.style.left = 100+'%'
+        i++
+    }
+
+}

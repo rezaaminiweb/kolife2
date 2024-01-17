@@ -32,7 +32,7 @@
 
                     <div class="container mx-auto">
                         <br>
-                        <div class="flex lg:justify-center justify-between items-center px-3 lg:px-0 text-xl">
+                        <div class="flex lg:justify-between justify-between items-center px-3 lg:px-0 text-xl">
                             <div>
                                 <figure class="relative">
                                     <img src="assets/img/logo2.png" class="w-[100px]" alt="">
@@ -40,7 +40,7 @@
 
                                 </figure>
                             </div>
-                            <div class=" flex items-center ">
+                            <div class=" flex items-center lg:justify-around ">
                                 <ul class="hidden lg:flex  items-center text-sm mx-3">
                                     <li class="mx-2 flex">
                                         <a href="#" class="text-[#183258] ">
@@ -122,33 +122,98 @@
                                 </ul>
                                 <ul>
                                     <div class="bg-gradient-to-b from-[#154189] to-[#172940] p-1">
-                                        <a href="#" class="flex   justify-center items-center  px-2 bg-[#f1f5fc]
+                                        <a href="#" class="flex   justify-center items-center lg:py-2 px-2 lg:px-3 bg-[#f1f5fc]
                                      ">
                                             <div class="flex justify-center items-center ">
-                                                <li class="text-xxs  ">
-                                                    ثبت کن
-                                                </li>
                                                 <figure>
                                                     <img src="assets/img/calender icon .png"
-                                                        class="lg:w-[20px] w-[10px] mr-1 lg:mr-0" alt="">
+                                                        class="lg:w-[15px] w-[10px] me-2 lg:mr-0" alt="">
                                                 </figure>
+                                                <li class="text-xxs lg:text-base  ">
+                                                    ثبت کن
+                                                </li>
                                             </div>
 
                                         </a>
                                     </div>
                                 </ul>
-                                <div class=" flex relative w-[20px] h-[20px] mr-4  border-black">
+                                <div
+                                    class=" flex relative w-[20px] h-[20px] mr-4 lg:hidden cursor-pointer  border-black" onclick="menu(event)">
                                     <figure>
                                         <img src="assets/img/Rectangle9copy2.png" alt="">
                                     </figure>
                                 </div>
+
                             </div>
 
 
                         </div>
+
                         <div>
 
                         </div>
+
+                    </div>
+                    <div class="fixed z-50 w-[70%] left-[100%] top-0 duration-300 h-screen lg:hidden px-7 py-7 bg-gradient-to-b from-[#dae9ff] to-white" id="navmenu">
+                        <ul class=" flex flex-col  items-start mx-3 text-lg">
+                            <li class="mx-2 my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258] ">
+                                    صفحه اصلی
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 my-3 flex w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    درباره ما
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    نمونه کار ها
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    وبلاگ
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    صفحات
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    مخاطب
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+
+
+
+                        </ul>
 
                     </div>
                 </div>
@@ -208,12 +273,12 @@
 
 
                     </div>
-                    <div class="relative hidden lg:flex">
-                        <figure class="bg-white w-[90px] shadow-2xl  rounded-full p-3 h-[90px] flex">
+                    <div class="relative hidden lg:flex  ">
+                        <figure class="bg-white w-[90px] shadow-2xl   rounded-full p-3 h-[90px] flex">
                             <img src="assets/img/logo3.png" alt="">
                         </figure>
-                        <div class="">
-                            <p id="para1" class="">. Colife Clinic . Colife Clinic . Colife Clinic . Colife Cl</p>
+                        <div class="relative left-[45px] animate-spin   ">
+                            <p id="para1" class=" ">. Colife Clinic . Colife Clinic . Colife Clinic . Colife Cl</p>
                         </div>
 
                     </div>
@@ -952,8 +1017,7 @@
                             <div class="py-2">
                                 <div class="flex py-2 justify-center">
                                     <p class="text-[#183154] font-EstedadBold text-base">بلفاروپلاستی</p>
-                                    <span
-                                        class="px-2">.......................................</span>
+                                    <span class="px-2">.......................................</span>
                                     <div class="flex font-hogolures items-end">
                                         <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
                                         <p>25400</p>
@@ -972,8 +1036,7 @@
                             <div class="py-2">
                                 <div class="flex py-2 justify-center">
                                     <p class="text-[#183154] font-EstedadBold text-base">لیزیک، لازک</p>
-                                    <span
-                                        class="px-2">........................................</span>
+                                    <span class="px-2">........................................</span>
                                     <div class="flex font-hogolures items-end">
                                         <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
                                         <p>25400</p>
@@ -992,8 +1055,7 @@
                             <div class="py-2">
                                 <div class="flex py-2 justify-center">
                                     <p class="text-[#183154] font-EstedadBold text-base">بلفاروپلاستی</p>
-                                    <span
-                                        class="px-2">.......................................</span>
+                                    <span class="px-2">.......................................</span>
                                     <div class="flex font-hogolures items-end">
                                         <span class="text-xs mx-1 inline-block align-bottom">RIAl</span>
                                         <p>25400</p>
@@ -1038,7 +1100,8 @@
                     <h4 class="lg:text-5xl text-3xl text-[#133770] font-bold font-EstedadBlock">نتایج جذاب</h4>
                 </div>
                 <div class="flex flex-col items-center py-3">
-                    <p class="py-2 text-base text-[#be9750] text-center font-EstedadMedium">جذابیت جدید و حس آرامش بخشی از زندگی را
+                    <p class="py-2 text-base text-[#be9750] text-center font-EstedadMedium">جذابیت جدید و حس آرامش بخشی
+                        از زندگی را
                         کشف
                         کنید. حساسیت جراحان باعث می شود</p>
                     <p class="text-[#be9750]"> که هیکل شما هیچ نقصی را نشان ندهد.</p>
@@ -1064,7 +1127,8 @@
 
                         </div>
                     </div>
-                    <div class="absolute lg:left-[-10%] left-[5%] top-[50%] flex translate-x-[-50%] translate-y-[-50%] ">
+                    <div
+                        class="absolute lg:left-[-10%] left-[5%] top-[50%] flex translate-x-[-50%] translate-y-[-50%] ">
                         <figure
                             class="bg-white lg:w-9 lg:h-9 w-5 h-5  flex justify-center lg:px-3 px-[7px] items-center shadow-[0px_1px_4px_black] rounded-full  ">
                             <img src="assets/img/arrowcopy13.png" class=" translate-x-[-10%]" alt="">
@@ -1072,7 +1136,8 @@
                         </figure>
 
                     </div>
-                    <div class="absolute lg:left-[110%] left-[95%] top-[50%] flex translate-x-[-50%] translate-y-[-50%] ">
+                    <div
+                        class="absolute lg:left-[110%] left-[95%] top-[50%] flex translate-x-[-50%] translate-y-[-50%] ">
                         <figure
                             class="bg-white lg:w-9 lg:h-9 w-5 h-5 flex justify-center lg:px-3 px-[7px] items-center shadow-[0px_1px_4px_black] rounded-full  ">
                             <img src="assets/img/arrowcopy12.png" class=" translate-x-[10%]" alt="">
@@ -1084,7 +1149,7 @@
                 </figure>
 
             </div>
-            
+
             <br>
             <div class="flex justify-around">
                 <figure class="px-10">
@@ -1110,7 +1175,7 @@
 
             </div>
             <div class="hidden lg:block">
-                
+
                 <br><br><br>
             </div>
             <br><br><br>
@@ -1123,7 +1188,8 @@
                     <div class="flex flex-col items-center justify-center ">
                         <br><br><br><br>
                         <span class="text-[#be9750] lg:text-3xl text-base font-EstedadMedium">مشتریان خوشحال ما</span>
-                        <span class="text-[#164185] lg:text-5xl text-2xl font-EstedadBlock py-6"> این چیزی است که مشتریان </span>
+                        <span class="text-[#164185] lg:text-5xl text-2xl font-EstedadBlock py-6"> این چیزی است که
+                            مشتریان </span>
                         <span class="text-[#123368] lg:text-5xl text-2xl font-EstedadBlock"> راضی ما می گویند</span>
                     </div>
 
@@ -1507,7 +1573,8 @@
                                 <span class="lg:text-xl text-base text-[#be9750] ">
                                     یک قرار مسافرت رزرو کنید
                                 </span>
-                                <p class="text-[#164187] lg:text-5xl text-3xl font-EstedadBlock py-5">خدمات مورد نیاز خود را </p>
+                                <p class="text-[#164187] lg:text-5xl text-3xl font-EstedadBlock py-5">خدمات مورد نیاز
+                                    خود را </p>
                                 <p class="text-[#123368] lg:text-5xl text-3xl font-EstedadBlock">انتخاب کنید</p>
 
                             </div>
@@ -1534,7 +1601,8 @@
                                                     <input type="text" placeholder="ایمیل"
                                                         class="px-4 w-full py-2 border-2 outline-none">
                                                 </div>
-                                                <div class="lg:mr-6 mt-5 lg:mt-0  lg:w-[50%] w-[70%] px-4 border-2 bg-white ">
+                                                <div
+                                                    class="lg:mr-6 mt-5 lg:mt-0  lg:w-[50%] w-[70%] px-4 border-2 bg-white ">
                                                     <select class="  py-2 outline-none w-full  " name="" id=""
                                                         aria-placeholder="نوع سرویس">
                                                         <option class="w-full px-8" value="">نوع سرویس</option>
@@ -1562,7 +1630,8 @@
                                             </div>
                                             <div class="flex ">
                                                 <input type="checkbox" id="checkbox">
-                                                <label for="checkbox" class="mx-3 cursor-pointer">بله! لطفا اطلاعات رویدادها و ویژه ها
+                                                <label for="checkbox" class="mx-3 cursor-pointer">بله! لطفا اطلاعات
+                                                    رویدادها و ویژه ها
                                                     را
                                                     برای من ارسال کنید</label>
                                             </div>
@@ -1603,8 +1672,8 @@
             <div>
                 <div class="flex justify-center items-center ">
                     <div class="flex flex-col justify-center">
-                        <span class="text-center text-[#d0b28a] text-xl">وبلاگ ما را بخوانید</span>
-                        <span class="text-5xl py-3 font-EstedadBlock text-[#133771]">آخرین اخبــار</span>
+                        <span class="text-center text-[#d0b28a] lg:text-xl text-base">وبلاگ ما را بخوانید</span>
+                        <span class="lg:text-5xl text-3xl py-3 font-EstedadBlock text-[#133771]">آخرین اخبــار</span>
 
                     </div>
 
@@ -1612,24 +1681,25 @@
                 </div>
                 <br><br><br>
                 <div class="container mx-auto">
-                    <div class="flex">
-                        <div class="w-[30%] mx-5">
+                    <div class="flex flex-col items-center lg:flex-row">
+                        <div class="lg:w-[30%] mx-5 w-[60%]">
                             <figure class="w-full ">
                                 <div class="w-full  relative">
 
 
-                                    <img src="assets/img/Layer64.png" class="w-[90%]" alt="">
+                                    <img src="assets/img/Layer64.png" class="lg:w-[90%] w-full" alt="">
                                     <div class="absolute right-0 bottom-0 flex flex-col items-center ">
-                                        <span class="font-hogolures  text-4xl">
+                                        <span class="font-hogolures text-lg lg:text-4xl">
                                             10
                                         </span>
-                                        <span class="text-[#be9750] font-EstedadMedium text-sm pb-2">
+                                        <span
+                                            class="text-[#be9750] font-EstedadMedium ssm:text-[12px]  text-[10px] sm:text-[14px] md:text-[16px] lg:text-sm pb-2">
                                             مهر 1402
                                         </span>
 
                                     </div>
                                 </div>
-                                <figcaption>
+                                <figcaption class="flex flex-col items-center lg:block">
                                     <div class="flex py-6">
                                         <a href="">
                                             <span class="text-xl font-EstedadBold py-4 text-[#153d7e]">دسته بندی ها
@@ -1638,9 +1708,12 @@
                                         </a>
                                     </div>
                                     <div class="flex flex-col text-sm">
-                                        <span>چین و چروک ها بخش طبیعی پیری هستند که به دلیل ژنتیک،</span>
-                                        <span class="py-3">آسیب های ناشی از نور خورشید و از دست دادن سفتی و جهش</span>
-                                        <span>پوست به دلیل کمبود تولید کلاژن و الاستین ایجاد می شود</span>
+                                        <span class="text-center lg:text-start">چین و چروک ها بخش طبیعی پیری هستند که به
+                                            دلیل ژنتیک،</span>
+                                        <span class="py-3 text-center lg:text-start">آسیب های ناشی از نور خورشید و از
+                                            دست دادن سفتی و جهش</span>
+                                        <span class="text-center lg:text-start">پوست به دلیل کمبود تولید کلاژن و الاستین
+                                            ایجاد می شود</span>
 
                                     </div>
                                     <div class="mt-4 py-5 ">
@@ -1653,23 +1726,24 @@
 
 
                         </div>
-                        <div class="w-[30%] mx-5">
+                        <div class="lg:w-[30%] mx-5 w-[60%] mt-8">
                             <figure class="w-full ">
                                 <div class="w-full  relative">
 
 
-                                    <img src="assets/img/Layer64.png" class="w-[90%]" alt="">
+                                    <img src="assets/img/Layer64.png" class="lg:w-[90%] w-full" alt="">
                                     <div class="absolute right-0 bottom-0 flex flex-col items-center ">
-                                        <span class="font-hogolures  text-4xl">
+                                        <span class="font-hogolures  text-lg lg:text-4xl">
                                             10
                                         </span>
-                                        <span class="text-[#be9750] font-EstedadMedium text-sm pb-2">
+                                        <span
+                                            class="text-[#be9750] font-EstedadMedium ssm:text-[12px]  text-[10px] sm:text-[14px] md:text-[16px] lg:text-sm pb-2">
                                             مهر 1402
                                         </span>
 
                                     </div>
                                 </div>
-                                <figcaption>
+                                <figcaption class="flex flex-col items-center lg:block">
                                     <div class="flex py-6">
                                         <a href="">
                                             <span class="text-xl font-EstedadBold py-4 text-[#153d7e]">دسته بندی ها
@@ -1678,9 +1752,12 @@
                                         </a>
                                     </div>
                                     <div class="flex flex-col text-sm">
-                                        <span>چین و چروک ها بخش طبیعی پیری هستند که به دلیل ژنتیک،</span>
-                                        <span class="py-3">آسیب های ناشی از نور خورشید و از دست دادن سفتی و جهش</span>
-                                        <span>پوست به دلیل کمبود تولید کلاژن و الاستین ایجاد می شود</span>
+                                        <span class="text-center lg:text-start">چین و چروک ها بخش طبیعی پیری هستند که به
+                                            دلیل ژنتیک،</span>
+                                        <span class="py-3 text-center lg:text-start">آسیب های ناشی از نور خورشید و از
+                                            دست دادن سفتی و جهش</span>
+                                        <span class="text-center lg:text-start">پوست به دلیل کمبود تولید کلاژن و الاستین
+                                            ایجاد می شود</span>
 
                                     </div>
                                     <div class="mt-4 py-5 ">
@@ -1694,23 +1771,24 @@
 
                         </div>
 
-                        <div class="w-[30%] mx-5">
+                        <div class="lg:w-[30%] w-[60%] mx-5 mt-8">
                             <figure class="w-full ">
                                 <div class="w-full  relative">
 
 
-                                    <img src="assets/img/Layer64.png" class="w-[90%]" alt="">
-                                    <div class="absolute right-0 bottom-0 flex flex-col items-center ">
-                                        <span class="font-hogolures  text-4xl">
+                                    <img src="assets/img/Layer64.png" class="lg:w-[90%] w-full" alt="">
+                                    <div class="absolute right-0 bottom-0 flex  flex-col items-center ">
+                                        <span class="font-hogolures text-lg text-center lg:text-4xl">
                                             10
                                         </span>
-                                        <span class="text-[#be9750] font-EstedadMedium text-sm pb-2">
+                                        <span
+                                            class="text-[#be9750] font-EstedadMedium ssm:text-[12px]  text-[10px] sm:text-[14px] md:text-[16px] lg:text-sm pb-2">
                                             مهر 1402
                                         </span>
 
                                     </div>
                                 </div>
-                                <figcaption>
+                                <figcaption class="flex flex-col items-center lg:block">
                                     <div class="flex py-6">
                                         <a href="">
                                             <span class="text-xl font-EstedadBold py-4 text-[#153d7e]">دسته بندی ها
@@ -1719,9 +1797,12 @@
                                         </a>
                                     </div>
                                     <div class="flex flex-col text-sm">
-                                        <span>چین و چروک ها بخش طبیعی پیری هستند که به دلیل ژنتیک،</span>
-                                        <span class="py-3">آسیب های ناشی از نور خورشید و از دست دادن سفتی و جهش</span>
-                                        <span>پوست به دلیل کمبود تولید کلاژن و الاستین ایجاد می شود</span>
+                                        <span class="text-center lg:text-start">چین و چروک ها بخش طبیعی پیری هستند که به
+                                            دلیل ژنتیک،</span>
+                                        <span class="py-3 text-center lg:text-start">آسیب های ناشی از نور خورشید و از
+                                            دست دادن سفتی و جهش</span>
+                                        <span class="text-center lg:text-start">پوست به دلیل کمبود تولید کلاژن و الاستین
+                                            ایجاد می شود</span>
 
                                     </div>
                                     <div class="mt-4 py-5 ">
@@ -1753,13 +1834,13 @@
         </div>
 
 
-        
+
         <hr>
 
 
-        <div class="flex w-full  ">
+        <div class="flex w-full flex-col lg:flex-row  ">
 
-            <div class="w-[33%] flex flex-col p-28 border-2">
+            <div class="lg:w-[33%] w-full flex flex-col lg:p-28 p-14 border-2">
                 <ul>
                     <li class="mb-6"><a href="#" class="text-[#143a76] text-2xl font-EstedadBold ">لینک های مفید</a>
                     </li>
@@ -1783,17 +1864,18 @@
 
                 </ul>
             </div>
-            <div class="w-[33%] flex flex-col border-2 py-28 px-16">
+            <div class="lg:w-[33%] w-full  flex flex-col border-2 py-10 lg:py-28 lg:px-16">
                 <ul class="flex flex-col items-center justify-center w-full">
                     <li><a href="#">
                             <figure>
                                 <img src="assets/img/Layer 4 copy.png" class="w-[140px]" alt="">
                             </figure>
                         </a></li>
-                    <li class="flex flex-col py-8 items-center justify-center text-[#6d6d71]">
+                    <li class="flex flex-col py-8 px-5 lg:px-0 items-center justify-center text-[#6d6d71]">
 
-                        <span class="">بلفاروپلاستی و جراحی زیبایی پلک در کلینیک کولایف</span>
-                        <span class="py-3 ">یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک، لازک و...</span>
+                        <span class="text-center lg:text-start">بلفاروپلاستی و جراحی زیبایی پلک در کلینیک کولایف</span>
+                        <span class="py-3 text-center lg:text-start">یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک، لازک
+                            و...</span>
                         <span class="">دارای شعبه در زعفرانیه و سعادت‌آباد</span>
 
 
@@ -1805,36 +1887,44 @@
                             class="text-[#be9750] font-hogolures text-4xl tracking-widest	 space-x-5">09129406973</span>
                     </li>
                     <li class="flex mt-6">
-                        <div
-                            class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
-                            <figure class=" px-[10px]">
-                                <img src="assets/img/whatsapp.png" alt="">
-                            </figure>
-                        </div>
-                        <div
-                            class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
-                            <figure class=" px-[10px]">
-                                <img src="assets/img/insta.png" alt="">
-                            </figure>
-                        </div>
-                        <div
-                            class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
-                            <figure class=" px-[10px] ">
-                                <img src="assets/img/facebook .png" class="w-[12px]" alt="">
-                            </figure>
-                        </div>
-                        <div
-                            class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
-                            <figure class=" px-[10px]">
-                                <img src="assets/img/pin.png" alt="">
-                            </figure>
-                        </div>
+                        <a href="#">
+                            <div
+                                class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                <figure class=" px-[10px]">
+                                    <img src="assets/img/whatsapp.png" alt="">
+                                </figure>
+                            </div>
+                        </a>
+                        <a href="#" class="mx-5">
+                            <div
+                                class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                <figure class=" px-[10px]">
+                                    <img src="assets/img/insta.png" alt="">
+                                </figure>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div
+                                class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                <figure class=" px-[10px] ">
+                                    <img src="assets/img/facebook .png" class="w-[12px]" alt="">
+                                </figure>
+                            </div>
+                        </a>
+                        <a href="#" class="mr-5">
+                            <div
+                                class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                <figure class=" px-[10px]">
+                                    <img src="assets/img/pin.png" alt="">
+                                </figure>
+                            </div>
+                        </a>
 
 
                     </li>
                 </ul>
             </div>
-            <div class="w-[33%] flex flex-col border-2 p-28">
+            <div class="lg:w-[33%] w-full flex flex-col border-2 lg:p-28 p-14">
                 <ul>
                     <li class="font-EstedadBold text-[#153f82] text-2xl">
                         ارتباط با ما
@@ -1864,20 +1954,22 @@
         </div>
         <br><br><br>
         <div
-            class="bg-[url('../img/VectorSmartObjectcopy9.png'),url('../img/VectorSmartObjectcopy10.png'),url('../img/NimDayereh.png')] bg-[length:20rem,_20rem,_80rem] bg-no-repeat bg-[position:100%_0%,_0%_0%,_50%_100%] w-full  ">
+            class="lg:bg-[url('../img/VectorSmartObjectcopy9.png'),url('../img/VectorSmartObjectcopy10.png'),url('../img/NimDayereh.png')] lg:bg-[length:20rem,_20rem,_80rem] bg-no-repeat lg:bg-[position:100%_0%,_0%_0%,_50%_100%] w-full  bg-[url('../img/VectorSmartObjectcopy9.png'),url('../img/VectorSmartObjectcopy10.png')] bg-[length:10rem,_10rem] bg-[position:100%_0%,_0%_100%]">
             <div class="w-full h-full flex  justify-center items-start p-32">
 
                 <div class="flex flex-col items-center justify-center">
                     <div class="flex flex-col items-center justify-center">
                         <span class="text-[#be9750] text-base font-EstedadBold">ثبت نام در خبرنامه</span>
-                        <span class="text-[#16438a] text-4xl font-EstedadBold py-5"> آیا میخواهید اخبار زیبایی و سلامتی
+                        <span class="text-[#16438a] text-center lg:text-start lg:text-4xl text-2xl font-EstedadBold py-5"> آیا میخواهید اخبار
+                            زیبایی و سلامتی
                         </span>
-                        <span class="text-[#16438a] text-4xl font-EstedadBold">را دریافت کنید؟</span>
+                        <span class="text-[#16438a] lg:text-4xl text-2xl font-EstedadBold">را دریافت کنید؟</span>
                     </div>
                     <br><br><br><br>
-                    <div class=" py-2 px-5 flex justify-between border-b-2 border-black w-[600px] ">
+                    <div
+                        class=" py-2 lg:px-5 pr-5 flex justify-between border-b-2 border-black lg:w-[600px] w-[300px] ">
                         <input type="email" placeholder="ایمیل" class="p-2 outline-none">
-                        <button class=" font-EstedadMedium text-lg ">مشترک شدن</button>
+                        <button class=" text-[12px] font-EstedadMedium lg:text-lg  ">مشترک شدن</button>
 
 
                     </div>
@@ -1913,16 +2005,16 @@
             clickable: true,
         },
         breakpoints: {
-            350:{
+            350: {
                 slidesPerView: 1,
-                spaceBetween:50
+                spaceBetween: 50
 
             },
-        
-           1024:{
-            slidesPerView: 3,
-           }
-         },
+
+            1024: {
+                slidesPerView: 3,
+            }
+        },
     });
 </script>
 
