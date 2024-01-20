@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     screens:{
       ssm:'460px',
+      sm:'640px',
       md:'768px',
       lg:'1024px',
       xl:'1280px',
@@ -11,7 +12,7 @@ module.exports = {
     },
     extend: {
       animation:{
-        spin : 'spin 12s linear infinite'
+        spin : 'spin 20s linear infinite'
       },
       backgroundImage : {
         cheno : "url('./src/assets/img/Vector_Smart_Object.png')",

@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/swiper/swiper.css">
+</head>
+
+<body>
+    <main style="direction: rtl;">
+        <header>
+            <div class="flex justify-center">
+                <figure class="w-full">
+                    <img src="assets/img/shape_1.png"
+                        class="w-full h-[25px] ssm:h-[30px] sm:h-[37px] md:h-[50px] lg:w-[2000px] lg:h-[67px] xl:h-[87px] object-cover"
+                        alt="">
+                </figure>
+
+            </div>
+            <div class="  ">
+                <div class="w-full">
+
+
+                    <div class="container mx-auto">
+                        <br>
+                        <div class="flex lg:justify-between justify-between items-center px-3 lg:px-0 text-xl">
+                            <div>
+                                <figure class="relative">
+                                    <img src="assets/img/logo2.png" class="w-[100px]" alt="">
+                                    <!-- <img src="assets/img/logo .png" class="absolute left-[20%] top-[30%] w-[50px]" alt=""> -->
+
+                                </figure>
+                            </div>
+                            <div class=" flex items-center lg:justify-end xl:justify-around lg:w-full ">
+                                <ul class="hidden xl:flex  items-center text-sm mx-3">
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258] ">
+                                            صفحه اصلی
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            درباره ما
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            نمونه کار ها
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            وبلاگ
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            صفحات
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            مخاطب
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+
+
+
+                                </ul>
+                                <ul class="lg:flex hidden">
+                                    <li class=" flex font-hogolures tracking-wider">
+
+                                        09129406973
+
+
+
+                                    </li>
+                                </ul>
+                                <ul class="mr-7 ">
+                                    <li class=" px-5">
+                                        <figure class="flex items-center cursor-pointer">
+                                            <img src="assets/img/search icon .png" class="lg:w-[20px] w-[15px]" alt="">
+                                            <button class="lg:mr-3 mr-1 text-xxs lg:text-base">
+                                                جستجو
+                                            </button>
+                                        </figure>
+
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <div class="bg-gradient-to-b from-[#154189] to-[#172940] p-1">
+                                        <a href="#" class="flex   justify-center items-center lg:py-2 px-2 lg:px-3 bg-[#f1f5fc]
+                                     ">
+                                            <div class="flex justify-center items-center ">
+                                                <figure>
+                                                    <img src="assets/img/calender icon .png"
+                                                        class="lg:w-[15px] w-[10px] me-2 lg:mr-0" alt="">
+                                                </figure>
+                                                <li class="text-xxs lg:text-sm xl:text-base ">
+                                                    ثبت کن
+                                                </li>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </ul>
+                                <div class=" flex relative w-[20px] h-[20px] mr-4 lg:hidden cursor-pointer  border-black"
+                                    onclick="menu(event)">
+                                    <figure>
+                                        <img src="assets/img/Rectangle9copy2.png" alt="">
+                                    </figure>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="fixed z-50 w-[70%] left-[100%] top-0 duration-300 h-screen lg:hidden px-7 py-7 bg-gradient-to-b from-[#dae9ff] to-white"
+                        id="navmenu">
+                        <ul class=" flex flex-col  items-start mx-3 text-lg">
+                            <li class="mx-2 my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258] ">
+                                    صفحه اصلی
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 my-3 flex w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    درباره ما
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    نمونه کار ها
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    وبلاگ
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    صفحات
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    مخاطب
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+
+
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+        <!-- end header -->
+        <!-- start body -->
+        <section>
+            <div>
+                <br><br>
+            </div>
+            <div class="container mx-auto px-3">
+                <br><br>
+                <div class="w-full">
+                    <div class="flex items-center justify-center">
+                        <p class="text-[#be9750] font-EstedadBold text-2xl py-3">درباره ما </p>
+                    </div>
+                    <div class="lg:hidden">
+                        <br>
+                    </div>
+                    <div class="flex justify-center items-center flex-col lg:flex-row ">
+                        <div class=" flex justify-center">
+                            <figure class=" relative w-[50%] lg:w-auto  ">
+                                <img src="assets/img/shape4.png" class="" alt="">
+                                <img src="assets/img/pic1.png" class="absolute left-[-9px] top-[-10px] flex" alt="">
+                            </figure>
+                        </div>
+                        <div class="lg:hidden">
+                            <br><br>
+                        </div>
+                        <div class="">
+                            <div class="flex flex-col items-center justify-center ">
+                                <p class="text-3xl py-4 text-center lg:text-start font-bold text-[#174081]">
+                                    یک دهه سابقه در جراحی زیبایی پلک،
+                                </p>
+                                <p class="text-3xl font-bold text-[#192b42]">
+                                    فمتو لیزیک، لازک و ...
+                                </p>
+                                <p class="py-7 text-center lg:text-start px-3 w-full lg:w-[80%]">
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                </p>
+                            </div>
+                            <div
+                                class="flex justify-between flex-col lg:flex-row lg:items-start items-center lg:justify-around ">
+
+                                <figure class="">
+                                    <br>
+                                    <img src="assets/img/beautiful.png" class="w-[100px]" alt="">
+                                </figure>
+                                <figure
+                                    class="relative w-[50%] lg:w-[30%] lg:translate-y-12 lg:translate-x-[-6rem] mt-8">
+                                    <img src="assets/img/pic6.png" alt="">
+                                    <img src="assets/img/pic5.png" class="absolute left-[-9px] top-2" alt="">
+                                </figure>
+
+                            </div>
+
+                        </div>
+                        <div class="lg:hidden">
+                            <br><br>
+
+                        </div>
+                        <div class="flex justify-center">
+                            <figure class="w-[50%] lg:w-[100%] hidden lg:flex">
+                                <img src="assets/img/face shape .png" alt="">
+                            </figure>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <br>
+                    <br><br>
+                </div>
+                <div class="hidden lg:flex">
+                    <br><br>
+                </div>
+            </div>
+            <hr>
+            <br><br>
+            <div class=" bg-[#15448f]">
+                <div class="container mx-auto ">
+                    <div class="flex flex-col items-center">
+                        <div class="text-xl font-bold pt-4 text-[#fff]">
+                            <p>تنوع محصولات ما </p>
+                        </div>
+                        <div class="text-white py-4 font-bold">
+                            <p>بسیار زیاد است </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><hr><br><br>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide " style="background-color: transparent;">
+                        <figure class="relative flex flex-col items-center justify-center  ">
+                            <img src="assets/img/pic34.png" class="" style="width: 60%;height: 50%;" alt="">
+                            <div class="absolute  right-[25%] top-[30%]">
+                                <figure class="">
+                                    <img src="assets/img/Ellipse5copy4.png" class="" alt="">
+                                    <div class="absolute left-0 top-0 flex w-full h-full items-center justify-center ">
+                                        <img src="assets/img/icon02.png" class="  w-[20%] h-[20%]  " style="width: 60%;
+                                            height: 50%;" alt="">
+                                    </div>
+                                </figure>
+
+                            </div>
+                            <br><br>
+                            <figcaption class="flex flex-col justify-center">
+                                <div class="flex justify-center  ">
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                </div>
+                                <br>
+                                <div class="flex flex-col items-center justify-center text-xs py-4">
+                                    <span>بلفاروپلاستی همزمان پلک بالا و پایین معجزه می‌کنه!</span>
+                                    <span class="py-4">و این معجـزه باعث شده چهره زیباجوی عزیزمون جوان‌تر و
+                                        شاداب‌تر بشه. </span>
+                                    <span>باز هم ممنون از دکتر انصاری که از پزشکان قدیمی کلینیک کولایف
+                                        هستن</span>
+                                    <span class="py-4"> و رضایت زیباجویان گرامی کولایف رو به طور کامل جلب
+                                        می‌کنن.</span>
+
+                                </div>
+                                <br>
+
+                                <div class=" flex flex-col font-DinarOneMedium">
+                                    <span class="text-[#192b41] font-bold text-lg">
+                                        مریم احمدی فر
+                                    </span>
+                                    <span class="font-bold py-3 text-[#be9750]">
+                                        بلفاروپلاستی
+                                    </span>
+
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide " style="background-color: transparent;">
+                        <figure class="relative flex flex-col items-center justify-center  ">
+                            <img src="assets/img/Layer51.png" class="" style="width: 60%;height: 50%;" alt="">
+                            <div class="absolute  right-[25%] top-[30%]">
+                                <figure class="">
+                                    <img src="assets/img/Ellipse5copy4.png" class="" alt="">
+                                    <div class="absolute left-0 top-0 flex w-full h-full items-center justify-center ">
+                                        <img src="assets/img/icon02.png" class="  w-[20%] h-[20%]  " style="width: 60%;
+                                            height: 50%;" alt="">
+                                    </div>
+                                </figure>
+
+                            </div>
+                            <br><br>
+                            <figcaption class="flex flex-col justify-center">
+                                <div class="flex justify-center  ">
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                </div>
+                                <br>
+                                <div class="flex flex-col items-center justify-center text-xs py-4">
+                                    <span>بلفاروپلاستی همزمان پلک بالا و پایین معجزه می‌کنه!</span>
+                                    <span class="py-4">و این معجـزه باعث شده چهره زیباجوی عزیزمون جوان‌تر و
+                                        شاداب‌تر بشه. </span>
+                                    <span>باز هم ممنون از دکتر انصاری که از پزشکان قدیمی کلینیک کولایف
+                                        هستن</span>
+                                    <span class="py-4"> و رضایت زیباجویان گرامی کولایف رو به طور کامل جلب
+                                        می‌کنن.</span>
+
+                                </div>
+                                <br>
+
+                                <div class=" flex flex-col font-DinarOneMedium">
+                                    <span class="text-[#192b41] font-bold text-lg">
+                                        سولماز ابراهیم زاده
+                                    </span>
+                                    <span class="font-bold py-3 text-[#be9750]">
+                                        جراحی زیبایی پلک
+                                    </span>
+
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide " style="background-color: transparent;">
+                        <figure class="relative flex flex-col items-center justify-center  ">
+                            <img src="assets/img/Layer53.png" class="" style="width: 60%;height: 50%;" alt="">
+                            <div class="absolute  right-[25%] top-[30%]">
+                                <figure class="">
+                                    <img src="assets/img/Ellipse5copy4.png" class="" alt="">
+                                    <div class="absolute left-0 top-0 flex w-full h-full items-center justify-center ">
+                                        <img src="assets/img/icon02.png" class="  w-[20%] h-[20%]  " style="width: 60%;
+                                            height: 50%;" alt="">
+                                    </div>
+                                </figure>
+
+                            </div>
+                            <br><br>
+                            <figcaption class="flex flex-col justify-center">
+                                <div class="flex justify-center  ">
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                </div>
+                                <br>
+                                <div class="flex flex-col items-center justify-center text-xs py-4">
+                                    <span>بلفاروپلاستی همزمان پلک بالا و پایین معجزه می‌کنه!</span>
+                                    <span class="py-4">و این معجـزه باعث شده چهره زیباجوی عزیزمون جوان‌تر و
+                                        شاداب‌تر بشه. </span>
+                                    <span>باز هم ممنون از دکتر انصاری که از پزشکان قدیمی کلینیک کولایف
+                                        هستن</span>
+                                    <span class="py-4"> و رضایت زیباجویان گرامی کولایف رو به طور کامل جلب
+                                        می‌کنن.</span>
+
+                                </div>
+                                <br>
+
+                                <div class=" flex flex-col font-DinarOneMedium">
+                                    <span class="text-[#192b41] font-bold text-lg">
+                                        فاطمه افتخاریان
+                                    </span>
+                                    <span class="font-bold py-3 text-[#be9750]">
+                                        لیزیک،لازک
+                                    </span>
+
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide " style="background-color: transparent;">
+                        <figure class="relative flex flex-col items-center justify-center  ">
+                            <img src="assets/img/pic34.png" class="" style="width: 60%;height: 50%;" alt="">
+                            <div class="absolute  right-[25%] top-[30%]">
+                                <figure class="">
+                                    <img src="assets/img/Ellipse5copy4.png" class="" alt="">
+                                    <div class="absolute left-0 top-0 flex w-full h-full items-center justify-center ">
+                                        <img src="assets/img/icon02.png" class="  w-[20%] h-[20%]  " style="width: 60%;
+                                            height: 50%;" alt="">
+                                    </div>
+                                </figure>
+
+                            </div>
+                            <br><br>
+                            <figcaption class="flex flex-col justify-center">
+                                <div class="flex justify-center  ">
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                </div>
+                                <br>
+                                <div class="flex flex-col items-center justify-center text-xs py-4">
+                                    <span>بلفاروپلاستی همزمان پلک بالا و پایین معجزه می‌کنه!</span>
+                                    <span class="py-4">و این معجـزه باعث شده چهره زیباجوی عزیزمون جوان‌تر و
+                                        شاداب‌تر بشه. </span>
+                                    <span>باز هم ممنون از دکتر انصاری که از پزشکان قدیمی کلینیک کولایف
+                                        هستن</span>
+                                    <span class="py-4"> و رضایت زیباجویان گرامی کولایف رو به طور کامل جلب
+                                        می‌کنن.</span>
+
+                                </div>
+                                <br>
+
+                                <div class=" flex flex-col font-DinarOneMedium">
+                                    <span class="text-[#192b41] font-bold text-lg">
+                                        مریم احمدی فر
+                                    </span>
+                                    <span class="font-bold py-3 text-[#be9750]">
+                                        بلفاروپلاستی
+                                    </span>
+
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide " style="background-color: transparent;">
+                        <figure class="relative flex flex-col items-center justify-center  ">
+                            <img src="assets/img/Layer51.png" class="" style="width: 60%;height: 50%;" alt="">
+                            <div class="absolute  right-[25%] top-[30%]">
+                                <figure class="">
+                                    <img src="assets/img/Ellipse5copy4.png" class="" alt="">
+                                    <div class="absolute left-0 top-0 flex w-full h-full items-center justify-center ">
+                                        <img src="assets/img/icon02.png" class="  w-[20%] h-[20%]  " style="width: 60%;
+                                            height: 50%;" alt="">
+                                    </div>
+                                </figure>
+
+                            </div>
+                            <br><br>
+                            <figcaption class="flex flex-col justify-center">
+                                <div class="flex justify-center  ">
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                </div>
+                                <br>
+                                <div class="flex flex-col items-center justify-center text-xs py-4">
+                                    <span>بلفاروپلاستی همزمان پلک بالا و پایین معجزه می‌کنه!</span>
+                                    <span class="py-4">و این معجـزه باعث شده چهره زیباجوی عزیزمون جوان‌تر و
+                                        شاداب‌تر بشه. </span>
+                                    <span>باز هم ممنون از دکتر انصاری که از پزشکان قدیمی کلینیک کولایف
+                                        هستن</span>
+                                    <span class="py-4"> و رضایت زیباجویان گرامی کولایف رو به طور کامل جلب
+                                        می‌کنن.</span>
+
+                                </div>
+                                <br>
+
+                                <div class=" flex flex-col font-DinarOneMedium">
+                                    <span class="text-[#192b41] font-bold text-lg">
+                                        سولماز ابراهیم زاده
+                                    </span>
+                                    <span class="font-bold py-3 text-[#be9750]">
+                                        جراحی زیبایی پلک
+                                    </span>
+
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide " style="background-color: transparent;">
+                        <figure class="relative flex flex-col items-center justify-center  ">
+                            <img src="assets/img/Layer53.png" class="" style="width: 60%;height: 50%;" alt="">
+                            <div class="absolute  right-[25%] top-[30%]">
+                                <figure class="">
+                                    <img src="assets/img/Ellipse5copy4.png" class="" alt="">
+                                    <div class="absolute left-0 top-0 flex w-full h-full items-center justify-center ">
+                                        <img src="assets/img/icon02.png" class="  w-[20%] h-[20%]  " style="width: 60%;
+                                            height: 50%;" alt="">
+                                    </div>
+                                </figure>
+
+                            </div>
+                            <br><br>
+                            <figcaption class="flex flex-col justify-center">
+                                <div class="flex justify-center  ">
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                    <figure>
+                                        <img src="assets/img/stariconcopy4.png" alt="">
+                                    </figure>
+                                </div>
+                                <br>
+                                <div class="flex flex-col items-center justify-center text-xs py-4">
+                                    <span>بلفاروپلاستی همزمان پلک بالا و پایین معجزه می‌کنه!</span>
+                                    <span class="py-4">و این معجـزه باعث شده چهره زیباجوی عزیزمون جوان‌تر و
+                                        شاداب‌تر بشه. </span>
+                                    <span>باز هم ممنون از دکتر انصاری که از پزشکان قدیمی کلینیک کولایف
+                                        هستن</span>
+                                    <span class="py-4"> و رضایت زیباجویان گرامی کولایف رو به طور کامل جلب
+                                        می‌کنن.</span>
+
+                                </div>
+                                <br>
+
+                                <div class=" flex flex-col font-DinarOneMedium">
+                                    <span class="text-[#192b41] font-bold text-lg">
+                                        فاطمه افتخاریان
+                                    </span>
+                                    <span class="font-bold py-3 text-[#be9750]">
+                                        لیزیک،لازک
+                                    </span>
+
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <br><br><br><br>
+                <div class="swiper-pagination"></div>
+            </div>
+            <br><br><hr><br><br>
+            
+
+        </section>
+        <!-- end body  -->
+        <!-- start footer -->
+
+        <footer>
+            <div class="flex w-full flex-col lg:flex-row  ">
+
+                <div class="lg:w-[33%] w-full flex flex-col lg:p-28 p-14 border-2">
+                    <ul>
+                        <li class="mb-6"><a href="#" class="text-[#143a76] text-2xl font-EstedadBold ">لینک های مفید</a>
+                        </li>
+                        <li class="py-1"><a href="#" class="text-[#78787b] text-lg font-EstedadLight ">صفحه اصلی</a>
+                        </li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">جراحی زیبایی</a>
+                        </li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">منوی مراقبت از
+                                پوست</a></li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">درباره ما</a></li>
+
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">گواهینامه ها</a>
+                        </li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">اطلاعات بیمار</a>
+                        </li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">با ما تماس
+                                بگیرید</a></li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">وبلاگ</a></li>
+
+
+
+                    </ul>
+                </div>
+                <div class="lg:w-[33%] w-full  flex flex-col border-2 py-10 lg:py-28 lg:px-16">
+                    <ul class="flex flex-col items-center justify-center w-full">
+                        <li><a href="#">
+                                <figure>
+                                    <img src="assets/img/Layer 4 copy.png" class="w-[140px]" alt="">
+                                </figure>
+                            </a></li>
+                        <li class="flex flex-col py-8 px-5 lg:px-0 items-center justify-center text-[#6d6d71]">
+
+                            <span class="text-center lg:text-start">بلفاروپلاستی و جراحی زیبایی پلک در کلینیک
+                                کولایف</span>
+                            <span class="py-3 text-center lg:text-start">یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک،
+                                لازک
+                                و...</span>
+                            <span class="">دارای شعبه در زعفرانیه و سعادت‌آباد</span>
+
+
+
+                        </li>
+                        <br><br>
+                        <li>
+                            <span
+                                class="text-[#be9750] font-hogolures text-4xl tracking-widest	 space-x-5">09129406973</span>
+                        </li>
+                        <li class="flex mt-6">
+                            <a href="#">
+                                <div
+                                    class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                    <figure class=" px-[10px]">
+                                        <img src="assets/img/whatsapp.png" alt="">
+                                    </figure>
+                                </div>
+                            </a>
+                            <a href="#" class="mx-5">
+                                <div
+                                    class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                    <figure class=" px-[10px]">
+                                        <img src="assets/img/insta.png" alt="">
+                                    </figure>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div
+                                    class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                    <figure class=" px-[10px] ">
+                                        <img src="assets/img/facebook .png" class="w-[12px]" alt="">
+                                    </figure>
+                                </div>
+                            </a>
+                            <a href="#" class="mr-5">
+                                <div
+                                    class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                    <figure class=" px-[10px]">
+                                        <img src="assets/img/pin.png" alt="">
+                                    </figure>
+                                </div>
+                            </a>
+
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-[33%] w-full flex flex-col border-2 lg:p-28 p-14">
+                    <ul>
+                        <li class="font-EstedadBold text-[#153f82] text-2xl">
+                            ارتباط با ما
+                        </li>
+                        <li class="text-xl">
+                            <div class="flex flex-col py-5 text-[#6d6d71] text-lg">
+
+                                <a href="" class="py-3"><span class=""> دارای دو شعبه </span></a>
+                                <a href=""><span>در زعفرانیه و سعادت آباد</span></a>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="flex flex-col py-5 text-[#6d6d71] text-lg">
+
+                                <a href="" class="py-3"><span class=""> مشاوره رایگان :</span></a>
+                                <a href="" class="text-2xl"><span
+                                        class="font-hogolures tracking-wider ">09126406973</span></a>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+            <br><br><br>
+            <div
+                class="lg:bg-[url('../img/VectorSmartObjectcopy9.png'),url('../img/VectorSmartObjectcopy10.png'),url('../img/NimDayereh.png')] lg:bg-[length:20rem,_20rem,_80rem] bg-no-repeat lg:bg-[position:100%_0%,_0%_0%,_50%_100%] w-full  bg-[url('../img/VectorSmartObjectcopy9.png'),url('../img/VectorSmartObjectcopy10.png'),url('../img/NimDayereh.png')] bg-[length:10rem,_10rem,_100%] bg-[position:100%_0%,_0%_100%,_0%_100%]">
+                <div class="w-full h-full flex  justify-center items-start p-32">
+
+                    <div class="flex flex-col items-center justify-center">
+                        <div class="flex flex-col items-center justify-center">
+                            <span class="text-[#be9750] text-base font-EstedadBold">ثبت نام در خبرنامه</span>
+                            <span
+                                class="text-[#16438a] text-center lg:text-start lg:text-4xl text-2xl font-EstedadBold py-5">
+                                آیا میخواهید اخبار
+                                زیبایی و سلامتی
+                            </span>
+                            <span class="text-[#16438a] lg:text-4xl text-2xl font-EstedadBold">را دریافت کنید؟</span>
+                        </div>
+                        <br><br><br><br>
+                        <div
+                            class=" py-2 lg:px-5 pr-5 flex justify-between border-b-2 border-black lg:w-[600px] w-[300px] ">
+                            <input type="email" placeholder="ایمیل" class="p-2 outline-none">
+                            <button class=" text-[12px] font-EstedadMedium lg:text-lg  ">مشترک شدن</button>
+
+
+                        </div>
+                        <br><br>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </footer>
+
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="assets/script/script.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            350: {
+                slidesPerView: 1,
+                spaceBetween: 50
+
+            },
+
+            1024: {
+                slidesPerView: 3,
+            }
+        },
+    });
+</script>
+</html>

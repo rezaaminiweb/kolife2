@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/output.css">
+</head>
+
+<body>
+    <main style="direction: rtl;">
+        <header>
+            <div class="container mx-auto">
+                <div class="flex justify-center">
+                    <figure class="w-full">
+                        <img src="assets/img/shape_1.png"
+                            class="w-full h-[25px] ssm:h-[30px] sm:h-[37px] md:h-[50px] lg:w-[2000px] lg:h-[67px] xl:h-[87px] object-cover"
+                            alt="">
+                    </figure>
+
+                </div>
+            </div>
+
+            <div class="  ">
+                <div class="w-full">
+
+
+                    <div class="container mx-auto">
+                        <br>
+                        <div class="flex lg:justify-between justify-between items-center px-3 lg:px-0 text-xl">
+                            <div>
+                                <figure class="relative">
+                                    <img src="assets/img/logo2.png" class="w-[100px]" alt="">
+                                    <!-- <img src="assets/img/logo .png" class="absolute left-[20%] top-[30%] w-[50px]" alt=""> -->
+
+                                </figure>
+                            </div>
+                            <div class=" flex items-center lg:justify-end xl:justify-around lg:w-full ">
+                                <ul class="hidden xl:flex  items-center text-sm mx-3">
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258] ">
+                                            صفحه اصلی
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            درباره ما
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            نمونه کار ها
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            وبلاگ
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            صفحات
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+                                    <li class="mx-2 flex">
+                                        <a href="#" class="text-[#183258]">
+                                            مخاطب
+
+                                        </a>
+                                        <figure class="mr-3  items-center flex">
+                                            <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                        </figure>
+                                    </li>
+
+
+
+                                </ul>
+                                <ul class="lg:flex hidden">
+                                    <li class=" flex font-hogolures tracking-wider">
+
+                                        09129406973
+
+
+
+                                    </li>
+                                </ul>
+                                <ul class="mr-7 ">
+                                    <li class=" px-5">
+                                        <figure class="flex items-center cursor-pointer">
+                                            <img src="assets/img/search icon .png" class="lg:w-[20px] w-[15px]" alt="">
+                                            <button class="lg:mr-3 mr-1 text-xxs lg:text-base">
+                                                جستجو
+                                            </button>
+                                        </figure>
+
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <div class="bg-gradient-to-b from-[#154189] to-[#172940] p-1">
+                                        <a href="#" class="flex   justify-center items-center lg:py-2 px-2 lg:px-3 bg-[#f1f5fc]
+                                     ">
+                                            <div class="flex justify-center items-center ">
+                                                <figure>
+                                                    <img src="assets/img/calender icon .png"
+                                                        class="lg:w-[15px] w-[10px] me-2 lg:mr-0" alt="">
+                                                </figure>
+                                                <li class="text-xxs lg:text-sm xl:text-base ">
+                                                    ثبت کن
+                                                </li>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </ul>
+                                <div class=" flex relative w-[20px] h-[20px] mr-4 lg:hidden cursor-pointer  border-black"
+                                    onclick="menu(event)">
+                                    <figure>
+                                        <img src="assets/img/Rectangle9copy2.png" alt="">
+                                    </figure>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div class="fixed z-50 w-[70%] left-[100%] top-0 duration-300 h-screen lg:hidden px-7 py-7 bg-gradient-to-b from-[#dae9ff] to-white"
+                        id="navmenu">
+                        <ul class=" flex flex-col  items-start mx-3 text-lg">
+                            <li class="mx-2 my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258] ">
+                                    صفحه اصلی
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 my-3 flex w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    درباره ما
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    نمونه کار ها
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    وبلاگ
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    صفحات
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+                            <li class="mx-2 flex my-3 w-full flex justify-between">
+                                <a href="#" class="text-[#183258]">
+                                    مخاطب
+
+                                </a>
+                                <figure class="mr-3  items-center flex">
+                                    <img src="assets/img/arrow  copy 5.png" class="w-3" alt="">
+                                </figure>
+                            </li>
+
+
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </header>
+        <section>
+            <br><br>
+            <div class="container mx-auto px-3">
+                <br><br>
+                <div class="w-full">
+                    <div class="flex items-center justify-center">
+                        <p class="text-[#be9750] font-EstedadBold text-2xl py-3">درباره ما </p>
+                    </div>
+                    <div class="lg:hidden">
+                        <br>
+                    </div>
+                    <div class="flex justify-center items-center flex-col lg:flex-row ">
+                        <div class=" flex justify-center">
+                            <figure class=" relative w-[50%] lg:w-auto  ">
+                                <img src="assets/img/shape4.png" class="" alt="">
+                                <img src="assets/img/pic1.png" class="absolute left-[-9px] top-[-10px] flex" alt="">
+                            </figure>
+                        </div>
+                        <div class="lg:hidden">
+                            <br><br>
+                        </div>
+                        <div class="">
+                            <div class="flex flex-col items-center justify-center ">
+                                <p class="text-3xl py-4 text-center lg:text-start font-bold text-[#174081]">
+                                    یک دهه سابقه در جراحی زیبایی پلک،
+                                </p>
+                                <p class="text-3xl font-bold text-[#192b42]">
+                                    فمتو لیزیک، لازک و ...
+                                </p>
+                                <p class="py-7 text-center lg:text-start px-3 w-full lg:w-[80%]">
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                    یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک پلک، فمتو، لیزیک
+                                </p>
+                            </div>
+                            <div
+                                class="flex justify-between flex-col lg:flex-row lg:items-start items-center lg:justify-around ">
+
+                                <figure class="">
+                                    <br>
+                                    <img src="assets/img/beautiful.png" class="w-[100px]" alt="">
+                                </figure>
+                                <figure
+                                    class="relative w-[50%] lg:w-[30%] lg:translate-y-12 lg:translate-x-[-6rem] mt-8">
+                                    <img src="assets/img/pic6.png" alt="">
+                                    <img src="assets/img/pic5.png" class="absolute left-[-9px] top-2" alt="">
+                                </figure>
+
+                            </div>
+
+                        </div>
+                        <div class="lg:hidden">
+                            <br><br>
+
+                        </div>
+                        <div class="flex justify-center">
+                            <figure class="w-[50%] lg:w-[100%] hidden lg:flex">
+                                <img src="assets/img/face shape .png" alt="">
+                            </figure>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <br>
+                    <br><br>
+                </div>
+                <div class="hidden lg:flex">
+                    <br><br>
+                </div>
+            </div>
+            <hr>
+            <br><br>
+
+            <div class=" bg-[#15448f]">
+                <div class="container mx-auto ">
+                    <div class="flex flex-col items-center">
+                        <div class="text-xl font-bold pt-4 text-[#fff]">
+                            <p>تنوع محصولات ما </p>
+                        </div>
+                        <div class="text-white py-4 font-bold">
+                            <p>بسیار زیاد است </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container mx-auto">
+                <div class="flex justify-center ">
+                    <br><br>
+                    <div class="flex flex-col">
+                        <div class=" flex flex-col py-4 lg:flex-row justify-around ">
+                            <figure
+                                class="flex flex-col w-full items-center group duration-300 hover:bg-[#9abef363] lg:w-[30%] ">
+                                <a href="">
+                                    <img src="assets/img/Layer35copy.png" alt="">
+                                </a>
+                                <figcaption class="flex flex-col items-center">
+                                    <h2 class="text-[#174081] font-bold text-lg mt-2"> یکی از باکس درباره ما</h2>
+                                    <br>
+                                    <div class="flex ">
+                                        <p class="text-[#174081] font-bold px-2">8,700</p>
+                                        <span class="text-[#15448f] font-black"> تومان</span>
+                                    </div>
+                                    <br>
+                                    <div class="px-5">
+                                        <p class="text-center text-[#6b6b6b]">لورم ایپسوم متن ساختگی با تولید سادگی
+                                            نامفهوم
+                                            از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم
+                                            ایپسوم
+                                            متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                    </div>
+                                    <div class="w-full ">
+                                        <br>
+                                        <br>
+                                        <a href=""
+                                            class="px-9 py-4 bg-[#15448f] border-2 group-hover:bg-white duration-300 group-hover:text-[#15448f]  hover:border-[#15448f] border-transparent rounded-e-md text-white">بیشتر</a>
+
+                                    </div>
+                                    <br>
+                                </figcaption>
+
+                            </figure>
+                            <figure
+                                class="flex flex-col w-full items-center  my-9 lg:my-0 mx-0 lg:mx-9 group duration-300 hover:bg-[#9abef363] lg:w-[30%] ">
+                                <a href="">
+                                    <img src="assets/img/Layer35copy.png" alt="">
+                                </a>
+                                <figcaption class="flex flex-col items-center">
+                                    <h2 class="text-[#174081] font-bold text-lg mt-2"> یکی از باکس درباره ما</h2>
+                                    <br>
+                                    <div class="flex ">
+                                        <p class="text-[#174081] font-bold px-2">8,700</p>
+                                        <span class="text-[#15448f] font-black"> تومان</span>
+                                    </div>
+                                    <br>
+                                    <div class="px-5">
+                                        <p class="text-center text-[#6b6b6b]">لورم ایپسوم متن ساختگی با تولید سادگی
+                                            نامفهوم
+                                            از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم
+                                            ایپسوم
+                                            متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                    </div>
+                                    <div class="w-full ">
+                                        <br>
+                                        <br>
+                                        <a href=""
+                                            class="px-9 py-4 bg-[#15448f] border-2 group-hover:bg-white duration-300 group-hover:text-[#15448f]  hover:border-[#15448f] border-transparent rounded-e-md text-white">بیشتر</a>
+
+                                    </div>
+                                    <br>
+                                </figcaption>
+
+                            </figure>
+                            <figure
+                                class="flex flex-col w-full items-center group duration-300 hover:bg-[#9abef363] lg:w-[30%] ">
+                                <a href="">
+                                    <img src="assets/img/Layer35copy.png" alt="">
+                                </a>
+                                <figcaption class="flex flex-col items-center">
+                                    <h2 class="text-[#174081] font-bold text-lg mt-2"> یکی از باکس درباره ما</h2>
+                                    <br>
+                                    <div class="flex ">
+                                        <p class="text-[#174081] font-bold px-2">8,700</p>
+                                        <span class="text-[#15448f] font-black"> تومان</span>
+                                    </div>
+                                    <br>
+                                    <div class="px-5">
+                                        <p class="text-center text-[#6b6b6b]">لورم ایپسوم متن ساختگی با تولید سادگی
+                                            نامفهوم
+                                            از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم
+                                            ایپسوم
+                                            متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                    </div>
+                                    <div class="w-full ">
+                                        <br>
+                                        <br>
+                                        <a href=""
+                                            class="px-9 py-4 bg-[#15448f] border-2 group-hover:bg-white duration-300 group-hover:text-[#15448f]  hover:border-[#15448f] border-transparent rounded-e-md text-white">بیشتر</a>
+
+                                    </div>
+                                    <br>
+                                </figcaption>
+
+                            </figure>
+
+
+
+
+
+                        </div>
+                        <div class=" flex flex-col py-4 lg:flex-row justify-around ">
+                            <figure
+                                class="flex flex-col w-full items-center group duration-300 hover:bg-[#9abef363] lg:w-[30%] ">
+                                <a href="">
+                                    <img src="assets/img/Layer35copy.png" alt="">
+                                </a>
+                                <figcaption class="flex flex-col items-center">
+                                    <h2 class="text-[#174081] font-bold text-lg mt-2"> یکی از باکس درباره ما</h2>
+                                    <br>
+                                    <div class="flex ">
+                                        <p class="text-[#174081] font-bold px-2">8,700</p>
+                                        <span class="text-[#15448f] font-black"> تومان</span>
+                                    </div>
+                                    <br>
+                                    <div class="px-5">
+                                        <p class="text-center text-[#6b6b6b]">لورم ایپسوم متن ساختگی با تولید سادگی
+                                            نامفهوم
+                                            از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم
+                                            ایپسوم
+                                            متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                    </div>
+                                    <div class="w-full ">
+                                        <br>
+                                        <br>
+                                        <a href=""
+                                            class="px-9 py-4 bg-[#15448f] border-2 group-hover:bg-white duration-300 group-hover:text-[#15448f]  hover:border-[#15448f] border-transparent rounded-e-md text-white">بیشتر</a>
+
+                                    </div>
+                                    <br>
+                                </figcaption>
+
+                            </figure>
+                            <figure
+                                class="flex flex-col w-full items-center  my-9 lg:my-0 mx-0 lg:mx-9 group duration-300 hover:bg-[#9abef363] lg:w-[30%] ">
+                                <a href="">
+                                    <img src="assets/img/Layer35copy.png" alt="">
+                                </a>
+                                <figcaption class="flex flex-col items-center">
+                                    <h2 class="text-[#174081] font-bold text-lg mt-2"> یکی از باکس درباره ما</h2>
+                                    <br>
+                                    <div class="flex ">
+                                        <p class="text-[#174081] font-bold px-2">8,700</p>
+                                        <span class="text-[#15448f] font-black"> تومان</span>
+                                    </div>
+                                    <br>
+                                    <div class="px-5">
+                                        <p class="text-center text-[#6b6b6b]">لورم ایپسوم متن ساختگی با تولید سادگی
+                                            نامفهوم
+                                            از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم
+                                            ایپسوم
+                                            متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                    </div>
+                                    <div class="w-full ">
+                                        <br>
+                                        <br>
+                                        <a href=""
+                                            class="px-9 py-4 bg-[#15448f] border-2 group-hover:bg-white duration-300 group-hover:text-[#15448f]  hover:border-[#15448f] border-transparent rounded-e-md text-white">بیشتر</a>
+
+                                    </div>
+                                    <br>
+                                </figcaption>
+
+                            </figure>
+                            <figure
+                                class="flex flex-col w-full items-center group duration-300 hover:bg-[#9abef363] lg:w-[30%] ">
+                                <a href="">
+                                    <img src="assets/img/Layer35copy.png" alt="">
+                                </a>
+                                <figcaption class="flex flex-col items-center">
+                                    <h2 class="text-[#174081] font-bold text-lg mt-2"> یکی از باکس درباره ما</h2>
+                                    <br>
+                                    <div class="flex ">
+                                        <p class="text-[#174081] font-bold px-2">8,700</p>
+                                        <span class="text-[#15448f] font-black"> تومان</span>
+                                    </div>
+                                    <br>
+                                    <div class="px-5">
+                                        <p class="text-center text-[#6b6b6b]">لورم ایپسوم متن ساختگی با تولید سادگی
+                                            نامفهوم
+                                            از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم
+                                            ایپسوم
+                                            متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                    </div>
+                                    <div class="w-full ">
+                                        <br>
+                                        <br>
+                                        <a href=""
+                                            class="px-9 py-4 bg-[#15448f] border-2 group-hover:bg-white duration-300 group-hover:text-[#15448f]  hover:border-[#15448f] border-transparent rounded-e-md text-white">بیشتر</a>
+
+                                    </div>
+                                    <br>
+                                </figcaption>
+
+                            </figure>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <br><br>
+
+        </section>
+        <footer>
+            <div class="flex w-full flex-col lg:flex-row  ">
+
+                <div class="lg:w-[33%] w-full flex flex-col lg:p-28 p-14 border-2">
+                    <ul>
+                        <li class="mb-6"><a href="#" class="text-[#143a76] text-2xl font-EstedadBold ">لینک های مفید</a>
+                        </li>
+                        <li class="py-1"><a href="#" class="text-[#78787b] text-lg font-EstedadLight ">صفحه اصلی</a>
+                        </li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">جراحی زیبایی</a>
+                        </li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">منوی مراقبت از
+                                پوست</a></li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">درباره ما</a></li>
+
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">گواهینامه ها</a>
+                        </li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">اطلاعات بیمار</a>
+                        </li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">با ما تماس
+                                بگیرید</a></li>
+                        <li class="py-1"><a href="" class="text-[#78787b] text-lg font-EstedadLight ">وبلاگ</a></li>
+
+
+
+                    </ul>
+                </div>
+                <div class="lg:w-[33%] w-full  flex flex-col border-2 py-10 lg:py-28 lg:px-16">
+                    <ul class="flex flex-col items-center justify-center w-full">
+                        <li><a href="#">
+                                <figure>
+                                    <img src="assets/img/Layer 4 copy.png" class="w-[140px]" alt="">
+                                </figure>
+                            </a></li>
+                        <li class="flex flex-col py-8 px-5 lg:px-0 items-center justify-center text-[#6d6d71]">
+
+                            <span class="text-center lg:text-start">بلفاروپلاستی و جراحی زیبایی پلک در کلینیک
+                                کولایف</span>
+                            <span class="py-3 text-center lg:text-start">یک دهه سابقه در جراحی زیبایی پلک، فمتو، لیزیک،
+                                لازک
+                                و...</span>
+                            <span class="">دارای شعبه در زعفرانیه و سعادت‌آباد</span>
+
+
+
+                        </li>
+                        <br><br>
+                        <li>
+                            <span
+                                class="text-[#be9750] font-hogolures text-4xl tracking-widest	 space-x-5">09129406973</span>
+                        </li>
+                        <li class="flex mt-6">
+                            <a href="#">
+                                <div
+                                    class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                    <figure class=" px-[10px]">
+                                        <img src="assets/img/whatsapp.png" alt="">
+                                    </figure>
+                                </div>
+                            </a>
+                            <a href="#" class="mx-5">
+                                <div
+                                    class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                    <figure class=" px-[10px]">
+                                        <img src="assets/img/insta.png" alt="">
+                                    </figure>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div
+                                    class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                    <figure class=" px-[10px] ">
+                                        <img src="assets/img/facebook .png" class="w-[12px]" alt="">
+                                    </figure>
+                                </div>
+                            </a>
+                            <a href="#" class="mr-5">
+                                <div
+                                    class="w-[50px] mx-2 h-[50px] border-4 border-[#cbcbcb] flex justify-center items-center rounded-full">
+                                    <figure class=" px-[10px]">
+                                        <img src="assets/img/pin.png" alt="">
+                                    </figure>
+                                </div>
+                            </a>
+
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-[33%] w-full flex flex-col border-2 lg:p-28 p-14">
+                    <ul>
+                        <li class="font-EstedadBold text-[#153f82] text-2xl">
+                            ارتباط با ما
+                        </li>
+                        <li class="text-xl">
+                            <div class="flex flex-col py-5 text-[#6d6d71] text-lg">
+
+                                <a href="" class="py-3"><span class=""> دارای دو شعبه </span></a>
+                                <a href=""><span>در زعفرانیه و سعادت آباد</span></a>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="flex flex-col py-5 text-[#6d6d71] text-lg">
+
+                                <a href="" class="py-3"><span class=""> مشاوره رایگان :</span></a>
+                                <a href="" class="text-2xl"><span
+                                        class="font-hogolures tracking-wider ">09126406973</span></a>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+            <br><br><br>
+            <div
+                class="lg:bg-[url('../img/VectorSmartObjectcopy9.png'),url('../img/VectorSmartObjectcopy10.png'),url('../img/NimDayereh.png')] lg:bg-[length:20rem,_20rem,_80rem] bg-no-repeat lg:bg-[position:100%_0%,_0%_0%,_50%_100%] w-full  bg-[url('../img/VectorSmartObjectcopy9.png'),url('../img/VectorSmartObjectcopy10.png'),url('../img/NimDayereh.png')] bg-[length:10rem,_10rem,_100%] bg-[position:100%_0%,_0%_100%,_0%_100%]">
+                <div class="w-full h-full flex  justify-center items-start p-32">
+
+                    <div class="flex flex-col items-center justify-center">
+                        <div class="flex flex-col items-center justify-center">
+                            <span class="text-[#be9750] text-base font-EstedadBold">ثبت نام در خبرنامه</span>
+                            <span
+                                class="text-[#16438a] text-center lg:text-start lg:text-4xl text-2xl font-EstedadBold py-5">
+                                آیا میخواهید اخبار
+                                زیبایی و سلامتی
+                            </span>
+                            <span class="text-[#16438a] lg:text-4xl text-2xl font-EstedadBold">را دریافت کنید؟</span>
+                        </div>
+                        <br><br><br><br>
+                        <div
+                            class=" py-2 lg:px-5 pr-5 flex justify-between border-b-2 border-black lg:w-[600px] w-[300px] ">
+                            <input type="email" placeholder="ایمیل" class="p-2 outline-none">
+                            <button class=" text-[12px] font-EstedadMedium lg:text-lg  ">مشترک شدن</button>
+
+
+                        </div>
+                        <br><br>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </footer>
+    </main>
+
+</body>
+<script src="assets/script/script.js"></script>
+
+</html>
